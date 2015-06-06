@@ -1,7 +1,4 @@
 node_modules
 public
-.tmp
-.sass-cache
 .idea
-dist
 /server/config/local.env.js
