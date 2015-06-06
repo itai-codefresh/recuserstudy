@@ -1,0 +1,54 @@
+.step1 {
+  width: 90%;
+  margin-top: 2%;
+
+  .pointer {
+    cursor: pointer;
+  }
+
+  .thumbnail {
+    border: none;
+    background-color: black;
+  }
+
+  .caption {
+    color: white;
+
+    .year {
+      color: grey;
+    }
+  }
+
+  .pick_movies {
+    background-color: black;
+
+    .chosen {
+      opacity: 0.2;
+    }
+
+
+
+    .menu_button {
+      margin-top: 130px;
+    }
+
+    h5 {
+      margin-bottom: 0px;
+    }
+
+    .no_padding {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+
+
+    .intro_image {
+      height: 190px !important;
+      width: 150px !important;
+    }
+  }
+
+}
+
+

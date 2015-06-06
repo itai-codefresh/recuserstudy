@@ -1,0 +1,72 @@
+.step2 {
+  margin-top: 2%;
+
+  .inline {
+    display: inline-block;
+  }
+
+  .choose_me {
+    margin-top: 20px;
+  }
+
+  .recommend {
+    margin-bottom: 20px;
+  }
+
+  .divider {
+    border-bottom: 1px solid grey;
+    margin: 25px 0 25px 0;
+  }
+
+  .description {
+    margin-bottom: 20px;
+  }
+
+  .thumbnail {
+    border: none;
+    background-color: black;
+  }
+
+  .caption {
+    color: white;
+
+    .year {
+      color: grey;
+    }
+  }
+
+  .pick_movies {
+    background-color: black;
+
+    .chosen {
+      opacity: 0.2;
+    }
+
+
+
+    .menu_button {
+      margin-top: 130px;
+    }
+
+    h5 {
+      margin-bottom: 0px;
+    }
+
+    .no_padding {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .pointer {
+      cursor: pointer;
+    }
+
+    .intro_image {
+      height: 190px !important;
+      width: 150px !important;
+    }
+  }
+
+}
+
+

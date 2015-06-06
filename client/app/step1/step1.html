@@ -1,0 +1,58 @@
+<div class="container step1">
+
+  <div class="row text-center">
+    <h3 ng-show="!userMovies.length">Please pick your favorite movies from the following list</h3>
+    <h3 ng-show="userMovies.length && userMovies.length < 10">Please choose {{10 - userMovies.length}} more movies</h3>
+    <h3><button class="btn btn-primary btn-lg" ng-show="userMovies.length === 10" ui-sref="step2({recId:1})">Continue to next step</button></h3>
+    <br>
+  </div>
+
+  <div class="pick_movies">
+    <div class="row">
+      <div class="col-md-1 text-center">
+        <button type="button" class="btn btn-default btn-lg menu_button" ng-click="left()" ng-disabled="!firstIndex">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </button>
+      </div>
+
+
+      <div class="col-sm-6 col-md-1 no_padding" ng-repeat="movie in movies" ng-click="addMovie($index)">
+        <div ng-class="calcMovie(movie)">
+          <img ng-src="{{movie.image}}" alt="{{movie.name}}" class="intro_image pointer">
+
+          <div class="caption">
+            <h5><b>{{movie.name}}</b></h5>
+            <span class="year">{{movie.year}}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-1 text-center">
+        <button type="button" class="btn btn-default btn-lg menu_button" ng-click="right()" ng-disabled="lastIndex === totalMovies">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <br><br>
+  <div class="row" ng-show="userMovies.length">
+    <h3 class="text-center">Your choice:</h3>
+    <br>
+    <div class="col-sm-6 col-md-1"></div>
+    <div class="col-sm-6 col-md-1 no_padding" ng-repeat="movie in userMovies" ng-click="removeMovie($index)">
+      <div class="thumbnail">
+        <img ng-src="{{movie.image}}" alt="{{movie.name}}" class="intro_image pointer">
+
+        <div class="caption">
+          <h5><b>{{movie.name}}</b></h5>
+          <span class="year">{{movie.year}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-1"></div>
+  </div>
+
+</div>
+
