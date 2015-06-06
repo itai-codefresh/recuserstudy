@@ -3,7 +3,7 @@
   <div class="row text-center">
     <h3 ng-show="!userMovies.length">Please pick your favorite movies from the following list</h3>
     <h3 ng-show="userMovies.length && userMovies.length < 10">Please choose {{10 - userMovies.length}} more movies</h3>
-    <h3><button class="btn btn-primary btn-lg" ng-show="userMovies.length === 10" ui-sref="step2({recId:1})">Continue to next step</button></h3>
+    <h3><button class="btn btn-primary btn-lg" ng-show="userMovies.length === 10" ui-sref="step2({recId:1})">Continue to next step&nbsp&nbsp<span class="glyphicon glyphicon glyphicon-ok" aria-hidden="true"></span></button></h3>
     <br>
   </div>
 

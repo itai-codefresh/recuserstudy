@@ -15,7 +15,7 @@ angular.module('recuserstudyApp')
     '<br><p>In-order to show you the best reccomendations, we are going to begin with showing you a list of very known and successful movies from which you are asked to pick 10 that you most like.<br>You can always regret your pick of choice and replace it with another one.</br></p>';
 
 
-    Modal.confirm.info()("Welcome, and thanks for participating", step1Html, "I am ready. lets start");
+    Modal.confirm.info()("Welcome!", step1Html, "I am ready. lets start");
 
     $scope.firstIndex = 0;
     $scope.lastIndex = 9;
@@ -34,12 +34,12 @@ angular.module('recuserstudyApp')
     $scope.$watch('userMovies.length', function(){
       if ($scope.userMovies.length === 1 && initial){
         initial = false;
-        Modal.confirm.info()("Notice", '<p>If you regret you choice you can always click the movie again to remove it.</p>', "Got it");
+        Modal.confirm.info()('Notice&nbsp&nbsp<span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span>', '<p>If you regret you choice you can always click the movie again to remove it.</p>', "Got it");
 
       }
       if ($scope.userMovies.length === 10 && !alreadyFinished){
         alreadyFinished = true
-        Modal.confirm.confirm(function(){$state.go("step2", {"recId": 1})})("You have finished the first step", '<p>You can move forward or change you choices if you wish.</p>', "Continue");
+        Modal.confirm.confirm(function(){$state.go("step2", {"recId": 1})})("You have finished the first step", '<p>You can move forward or change your choices if you wish.</p>', "Continue");
       }
     });
 

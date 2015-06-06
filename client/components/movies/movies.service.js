@@ -177,5 +177,7 @@ angular.module('recuserstudyApp')
     this.user = [];
 
     this.withImages = true;
+
+    this.completed = 0;
   });
 
