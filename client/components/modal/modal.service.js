@@ -1,22 +1,23 @@
 'use strict';
 
 angular.module('recuserstudyApp')
-  .factory('Modal', function ($rootScope, $modal) {
+  .factory('Modal', function ($rootScope, $modal, Movies) {
     /**
      * Opens a modal
      * @param  {Object} scope      - an object to be merged with modal's scope
      * @param  {String} modalClass - (optional) class(es) to be applied to the modal
      * @return {Object}            - the instance $modal.open() returns
      */
-    function openModal(scope, modalClass) {
+    function openModal(scope, modalClass, templateUrl) {
       var modalScope = $rootScope.$new();
       scope = scope || {};
       modalClass = modalClass || 'modal-default';
+      templateUrl = templateUrl || 'components/modal/modal.html';
 
       angular.extend(modalScope, scope);
 
       return $modal.open({
-        templateUrl: 'components/modal/modal.html',
+        templateUrl: templateUrl,
         windowClass: modalClass,
         backdrop: 'static',
         keyboard: false,
@@ -65,6 +66,44 @@ angular.module('recuserstudyApp')
                 }]
               }
             }, 'modal-primary');
+
+          };
+        },
+
+        form: function(del) {
+          del = del || angular.noop;
+
+          /**
+           * Open a delete confirmation modal
+           * @param  {String} name   - name or info to show on modal
+           * @param  {All}           - any additional args are passed staight to del callback
+           */
+          return function() {
+            var args = Array.prototype.slice.call(arguments),
+              title = args.shift(),
+              html = args.shift(),
+              continueText = args.shift(),
+              deleteModal;
+
+            deleteModal = openModal({
+              modal: {
+                dismissable: true,
+                title: title,
+                html: html,
+                age: "age",
+                gender: "gender",
+                buttons: [{
+                  classes: 'btn-primary',
+                  text: continueText,
+                  click: function(e, age, gender) {
+                    Movies.age = age;
+                    Movies.gender = gender;
+                    deleteModal.dismiss(e);
+                    del.apply(event, args);
+                  }
+                }]
+              }
+            }, 'modal-primary', 'components/modal/form.html');
 
           };
         },

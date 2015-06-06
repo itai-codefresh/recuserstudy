@@ -6,6 +6,20 @@ angular.module('recuserstudyApp')
     $scope.loading = true;
 
 
+    if ($scope.id < 1 || $scope.id > 10) {
+      $state.go('step1');
+      return;
+    }
+
+    if (!Movies.user.length) {
+      $state.go("step1");
+      return;
+    }
+    else {
+      var userMovies = Movies.user;
+    }
+
+
     var afterSuccess = function (load) {
       if (!load)
         $scope.loading = false;
@@ -19,20 +33,6 @@ angular.module('recuserstudyApp')
       $scope.completed = Movies.completed;
 
       $scope.id = $stateParams.recId;
-
-      if ($scope.id < 1 || $scope.id > 10) {
-        $state.go('step1');
-        return;
-      }
-
-      if (!Movies.user.length) {
-        $state.go("step1");
-        return;
-      }
-      else {
-        var userMovies = Movies.user;
-      }
-
 
       var currentMovie = userMovies[$scope.id - 1];
       $scope.recommendations = [];
@@ -72,7 +72,7 @@ angular.module('recuserstudyApp')
           userMovies[$scope.id - 1].choice = rec;
         }
         else {
-          userMovies[$scope.id - 1].choice = null;
+          userMovies[$scope.id - 1].choice = 'none';
         }
 
         if ($scope.id == 10 && firstTimeFinished) {
@@ -90,7 +90,7 @@ angular.module('recuserstudyApp')
 
       $scope.finish = function () {
         $scope.loading = true;
-        $http.post('/api/movies/saveUserExperiment', {withImages: $scope.withImages, res: userMovies})
+        $http.post('/api/movies/saveUserExperiment', {withImages: $scope.withImages, res: userMovies, age: Movies.age, gender: Movies.gender})
           .success(function () {
             Modal.confirm.info(function () {
               window.location.assign("http://www.imdb.com");

@@ -1,0 +1,47 @@
+<div class="modal-header">
+  <h4 ng-if="modal.title" ng-bind-html="modal.title" class="modal-title"></h4>
+</div>
+<div class="modal-body">
+  <p ng-if="modal.text" ng-bind="modal.text"></p>
+
+  <div>
+    <div>
+      <p>In-order to show you the best reccomendations we would like to know:</p>
+      <span><b>Your Gender:</b></span>
+      <select class="form-control" ng-model="modal.gender">
+        <option value="gender">Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <br>
+      <span><b>Your age:</b></span>
+      <select class="form-control" ng-model="modal.age">
+        <option value="age">Age</option>
+        <option value="15-25">15-20</option>
+        <option value="26-35">21-25</option>
+        <option value="36-45">26-30</option>
+        <option value="46-55">31-35</option>
+        <option value="56-65">36-40</option>
+        <option value="66-75">41-45</option>
+        <option value="76-85">46-50</option>
+      </select>
+    </div>
+
+    <br>
+    <div>
+      <p>We are going to begin with showing you a list of very known and
+        successful movies from which you are asked to pick 10 that you most like.
+        <br>
+        You can always regret your pick of
+        choice and replace it with another one.
+        </br>
+      </p>
+    </div>
+
+  </div>
+</div>
+<div class="modal-footer">
+  <span class="pull-left" ng-show="modal.age === 'age' || modal.gender === 'gender'"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> please fill the missing details</span>
+  <button ng-disabled="modal.age === 'age' || modal.gender === 'gender'" ng-repeat="button in modal.buttons" ng-class="button.classes" ng-click="button.click($event, modal.age, modal.gender)"
+          ng-bind="button.text" class="btn"></button>
+</div>

@@ -5,7 +5,9 @@ var mongoose = require('mongoose'),
 
 var ThingSchema = new Schema({
   withImages: Boolean,
-  res: {}
+  res: {},
+  age: "String",
+  gender: "String"
 });
 
 module.exports = mongoose.model('Movie', ThingSchema);

@@ -12,21 +12,47 @@
   </div>
 
 
-  <div class="container" ng-show="!loading">
-    <div class="row text-center">
-      <h2>Total participants: {{stats.total}}</h2>
+  <div class="container" ng-show="!loading" style="margin-bottom:150px;">
+
+    <div class="row result">
+      <div class="col-md-12 text-center">
+        <h3>Total participants: {{stats.users.total}}</h3>
+        <canvas id="pie5" class="chart chart-pie" data="totalUsers" labels="labels2" legend="true"></canvas>
+      </div>
     </div>
 
     <div class="row results">
       <div class="col-md-6 text-center">
         <h3>Recommendations shown <b>with</b> images</h3>
         <h4>Total participants: {{stats.withImages.total}}</h4>
-        <canvas id="pie1" class="chart chart-pie" data="withImages" labels="labels" legend="true" colours="colors"></canvas>
+        <canvas id="pie3" class="chart chart-pie" data="withImagesUsers" labels="labels2" legend="true"></canvas>
       </div>
       <div class="col-md-6 text-center">
         <h3>Recommendations shown <b>without</b> images</h3>
         <h4>Total participants: {{stats.withoutImages.total}}</h4>
-        <canvas id="pie2" class="chart chart-pie" data="withoutImages" labels="labels" legend="true" colours="colors"></canvas>
+        <canvas id="pie4" class="chart chart-pie" data="withoutImagesUsers" labels="labels2" legend="true"></canvas>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="row result">
+      <div class="col-md-12 text-center">
+        <h3>Total recommendations viewed by all participants: {{stats.users.amount}}</h3>
+        <canvas id="pie6" class="chart chart-pie" data="totalRecommendations" labels="labels1" legend="true" colours="colors"></canvas>
+      </div>
+    </div>
+
+    <div class="row results">
+      <div class="col-md-6 text-center">
+        <h3>Recommendations shown <b>with</b> images</h3>
+        <h4>Total recommendations viewed by participants: {{stats.withImages.amount}}</h4>
+        <canvas id="pie1" class="chart chart-pie" data="withImages" labels="labels1" legend="true" colours="colors"></canvas>
+      </div>
+      <div class="col-md-6 text-center">
+        <h3>Recommendations shown <b>without</b> images</h3>
+        <h4>Total recommendations viewed by participants: {{stats.withoutImages.amount}}</h4>
+        <canvas id="pie2" class="chart chart-pie" data="withoutImages" labels="labels1" legend="true" colours="colors"></canvas>
       </div>
     </div>
 

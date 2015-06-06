@@ -6923,6 +6923,10 @@ button.close {
 /**
  * App-wide Styles
  */
+html {
+  position: relative;
+  min-height: 100%; }
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -6961,8 +6965,19 @@ button.close {
   margin-bottom: 150px;
   margin-left: 500px; }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5; }
+
 .results .thing-form {
   margin: 20px 0; }
+.results .divider {
+  border: 1px solid grey;
+  margin: 50px 0 50px 0; }
 .results #banner {
   border-bottom: none;
   margin-top: -20px; }
@@ -7017,7 +7032,8 @@ button.close {
       width: 150px !important; }
 
 .step2 {
-  margin-top: 2%; }
+  margin-top: 2%;
+  margin-bottom: 4%; }
   .step2 .inline {
     display: inline-block; }
   .step2 .navigate {

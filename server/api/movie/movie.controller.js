@@ -14,17 +14,17 @@ var Movie = require('./movie.model');
 
 var lastTime = true;
 
-exports.withImages = function(request, response) {
+exports.withImages = function (request, response) {
   var totalWithImages = 0;
   var totalWithoutImages = 0;
-  Movie.find({withImages:true}, function(err, movies){
-    if (err){
+  Movie.find({withImages: true}, function (err, movies) {
+    if (err) {
       return response.send(400, "An error occurred while trying to initialize the system. We are sorry.");
     }
     else {
       totalWithImages = movies.length;
-      Movie.find({withImages:false}, function(err, movies){
-        if (err){
+      Movie.find({withImages: false}, function (err, movies) {
+        if (err) {
           return response.send(400, "An error occurred while trying to initialize the system. We are sorry.");
         }
         else {
@@ -46,9 +46,9 @@ exports.withImages = function(request, response) {
   })
 };
 
-exports.saveUserExperiment = function(request, response) {
-  Movie.create(request.body, function(err){
-    if (err){
+exports.saveUserExperiment = function (request, response) {
+  Movie.create(request.body, function (err) {
+    if (err) {
       return response.send(400, "An error occurred while trying to save data the system. We are sorry.");
     }
     else {
@@ -57,23 +57,41 @@ exports.saveUserExperiment = function(request, response) {
   });
 };
 
-exports.getStats = function(request, response){
-  Movie.find(function(err, res){
-    if (err){
+exports.getStats = function (request, response) {
+  Movie.find(function (err, res) {
+    if (err) {
       return response.send(400, "An error occurred while trying to bring data from system. We are sorry.");
     }
     else {
-      var result = {total: 0, withImages: {total:0, amount: 0, chosen: 0}, withoutImages: {total: 0, amount: 0, chosen: 0}};
-      res.map(function(record){
-        result.total++;
-        if (record.withImages)
+      var result = {
+        users: {
+          total: 0, "15-25": 0, "26-35": 0, "36-45": 0, "46-55": 0, "56-65": 0, "66-75": 0, "76-85": 0, amount: 0, chosen: 0
+        }
+        ,
+        withImages: {
+          total: 0, "15-25": 0, "26-35": 0, "36-45": 0, "46-55": 0, "56-65": 0, "66-75": 0, "76-85": 0, amount: 0, chosen: 0
+        },
+        withoutImages: {
+          total: 0, "15-25": 0, "26-35": 0, "36-45": 0, "46-55": 0, "56-65": 0, "66-75": 0, "76-85": 0, amount: 0, chosen: 0
+        }
+      };
+      res.map(function (record) {
+        result.users.total++;
+        result.users[record.age]++;
+        if (record.withImages){
           result.withImages.total++;
-        else
+          result.withImages[record.age]++;
+        }
+        else{
           result.withoutImages.total++;
+          result.withoutImages[record.age]++;
+        }
 
-        record.res.map(function(user){
-          if (user.choice){
-            if (record.withImages){
+        record.res.map(function (user) {
+          if (user.choice !== 'none') {
+            result.users.amount++;
+            result.users.chosen++;
+            if (record.withImages) {
               result.withImages.amount++;
               result.withImages.chosen++;
             }
@@ -83,6 +101,7 @@ exports.getStats = function(request, response){
             }
           }
           else {
+            result.users.amount++;
             if (record.withImages)
               result.withImages.amount++;
             else

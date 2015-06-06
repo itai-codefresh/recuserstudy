@@ -1084,6 +1084,10 @@ angular.module('recuserstudyApp')
 
     this.withImages = null;
 
+    this.age = null;
+
+    this.gender = null;
+
     this.alreadyDecided = false;
 
     this.completed = 0;

@@ -12,11 +12,13 @@ angular.module('recuserstudyApp')
 
     var step1Html = '' +
     '<h3>Welcome to our user study experiment.</h3><br>' +
-    '<p>The experiment will take an average time of 15 minutes, during this time we will introduce movies reccomendations from which you are required to pick the ones that best suites you.<br>In case none of the reccomendations appeals to you, you can choose to not make a choice and move forward.</br></p>' +
-    '<br><p>In-order to show you the best reccomendations, we are going to begin with showing you a list of very known and successful movies from which you are asked to pick 10 that you most like.<br>You can always regret your pick of choice and replace it with another one.</br></p>';
+    '<p>The experiment will take an average time of 15 minutes, during this time we will introduce movies reccomendations from which you are required to pick the ones that best suites you.<br>In case none of the reccomendations appeals to you, you can choose to not make a choice and move forward.</br></p>';
 
+    $scope.model = {age: "age", gender: "gender"};
 
-    Modal.confirm.info()("Welcome!", step1Html, "I am ready. lets start");
+    Modal.confirm.info(function(){
+      Modal.confirm.form()("We want to know you better", null, "I am ready. lets start");
+    })("Welcome!", step1Html, "Continue");
 
     $scope.firstIndex = 0;
     $scope.lastIndex = 9;

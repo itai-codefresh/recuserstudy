@@ -8,6 +8,11 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
  * App-wide Styles
  */
 
+html{
+  position: relative;
+  min-height: 100%;
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -49,6 +54,15 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
   margin-top:170px;
   margin-bottom:150px;
   margin-left:500px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
 }
 
 // Component styles are injected through grunt
