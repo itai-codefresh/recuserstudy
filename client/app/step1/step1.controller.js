@@ -1,11 +1,7 @@
 'use strict';
 
 angular.module('recuserstudyApp')
-  .controller('Step1Ctrl', function ($scope, $http, Modal, $state, Movies) {
-
-    /*    $http.get('/api/things').success(function(awesomeThings) {
-     $scope.awesomeThings = awesomeThings;
-     });*/
+  .controller('Step1Ctrl', function ($scope, Modal, $state, Movies) {
 
     var initial = true;
 
