@@ -3,6 +3,11 @@
 angular.module('recuserstudyApp')
   .controller('Step1Ctrl', function ($scope, Modal, $state, Movies) {
 
+    Movies.user = [];
+    Movies.withImages = null;
+    Movies.alreadyDecided = false;
+    Movies.completed = 0;
+
     var initial = true;
 
     var step1Html = '' +

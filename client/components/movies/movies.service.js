@@ -345,7 +345,9 @@ angular.module('recuserstudyApp')
 
     this.user = [];
 
-    this.withImages = true;
+    this.withImages = null;
+
+    this.alreadyDecided = false;
 
     this.completed = 0;
   });

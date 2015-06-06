@@ -12,6 +12,8 @@
 var _ = require('lodash');
 var Movie = require('./movie.model');
 
+var lastTime = true;
+
 exports.withImages = function(request, response) {
   var totalWithImages = 0;
   var totalWithoutImages = 0;
@@ -27,10 +29,17 @@ exports.withImages = function(request, response) {
         }
         else {
           totalWithoutImages = movies.length;
-          if (totalWithImages > totalWithoutImages)
-            return response.send(false);
-          else
-            return response.send(true);
+          var abs = Math.abs(totalWithImages - totalWithoutImages);
+          if (abs > 10) {
+            if (totalWithImages > totalWithoutImages)
+              return response.send(false);
+            else
+              return response.send(true);
+          }
+          else {
+            lastTime = !lastTime;
+            return response.send(!lastTime);
+          }
         }
       });
     }
@@ -43,7 +52,7 @@ exports.saveUserExperiment = function(request, response) {
       return response.send(400, "An error occurred while trying to save data the system. We are sorry.");
     }
     else {
-      return response.send();
+      return response.json(200, request.body);
     }
   });
 };
@@ -54,8 +63,35 @@ exports.getStats = function(request, response){
       return response.send(400, "An error occurred while trying to bring data from system. We are sorry.");
     }
     else {
-      var x = res;
-      return response.json(200, {total: 100, votedForSomething: 40, skipped: 60});
+      var result = {total: 0, withImages: {total:0, amount: 0, chosen: 0}, withoutImages: {total: 0, amount: 0, chosen: 0}};
+      res.map(function(record){
+        result.total++;
+        if (record.withImages)
+          result.withImages.total++;
+        else
+          result.withoutImages.total++;
+
+        record.res.map(function(user){
+          if (user.choice){
+            if (record.withImages){
+              result.withImages.amount++;
+              result.withImages.chosen++;
+            }
+            else {
+              result.withoutImages.amount++;
+              result.withoutImages.chosen++;
+            }
+          }
+          else {
+            if (record.withImages)
+              result.withImages.amount++;
+            else
+              result.withoutImages.amount++;
+          }
+
+        });
+      });
+      return response.json(200, result);
     }
   });
 };

@@ -4,7 +4,8 @@ var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 var ThingSchema = new Schema({
-  withImages: Boolean
+  withImages: Boolean,
+  res: {}
 });
 
-module.exports = mongoose.model('', ThingSchema);
+module.exports = mongoose.model('Movie', ThingSchema);
