@@ -16,7 +16,7 @@ angular.module('recuserstudyApp')
         director: "Quentin Tarantino",
         actors: "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",
         description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/1.jpg",
         recommend: [0,1,2,3]
       },
       "1": {
@@ -29,7 +29,7 @@ angular.module('recuserstudyApp')
         director: "Alfonso CuarÃ³n",
         actors: "Sandra Bullock, George Clooney, Ed Harris",
         description: "A medical engineer and an astronaut work together to survive after a catastrophe destroys their shuttle and leaves them adrift in orbit.",
-        image: "http://ia.media-imdb.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_SY317_CR0,0,214,317_AL_.jpg",
+        image: "assets/images/all/2.jpg",
         recommend: [4,5,6,7]
       },
       "2": {
@@ -42,7 +42,7 @@ angular.module('recuserstudyApp')
         director: "Darren Aronofsky",
         actors: "Natalie Portman, Mila Kunis, Vincent Cassel",
         description: 'A ballet dancer wins the lead in "Swan Lake" and is perfect for the role of the delicate White Swan - Princess Odette - but slowly loses her mind as she becomes more and more like Odile, the Black Swan.',
-        image: "http://ia.media-imdb.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/3.jpg",
         recommend: [4,5,8,9]
       },
       "3": {
@@ -55,7 +55,7 @@ angular.module('recuserstudyApp')
         director: "George Miller",
         actors: "Tom Hardy, Charlize Theron, Nicholas Hoult",
         description: "In a stark desert landscape where humanity is broken, two rebels just might be able to restore order: Max, a man of action and of few words, and Furiosa, a woman of action who is looking to make it back to her childhood homeland.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTUyMTE0ODcxNF5BMl5BanBnXkFtZTgwODE4NDQzNTE@._V1_SY317_CR2,0,214,317_AL_.jpg",
+        image: "assets/images/all/4.jpg",
         recommend: [10,11,12,13]
       },
       "4": {
@@ -68,7 +68,7 @@ angular.module('recuserstudyApp')
         director: "Lee Unkrich",
         actors: "Tom Hanks, Tim Allen, Joan Cusack",
         description: "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SY317_CR5,0,214,317_AL_.jpg",
+        image: "assets/images/all/5.jpg",
         recommend: [14,15,16,17]
       },
       "5": {
@@ -81,7 +81,7 @@ angular.module('recuserstudyApp')
         director: "Christopher Nolan",
         actors: "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
         description: "A thief who steals corporate secrets through use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/6.jpg",
         recommend: [2,18,19,20]
       },
       "6": {
@@ -94,7 +94,7 @@ angular.module('recuserstudyApp')
         director: "Ethan Coen, Joel Coen",
         actors: "Jeff Bridges, Matt Damon, Hailee Steinfeld",
         description: "A tough U.S. Marshal helps a stubborn teenager track down her father's murderer.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMjIxNjAzODQ0N15BMl5BanBnXkFtZTcwODY2MjMyNA@@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/7.jpg",
         recommend: [21,22,23,24]
       },
       "7": {
@@ -107,7 +107,7 @@ angular.module('recuserstudyApp')
         director: "Dean DeBlois, Chris Sanders",
         actors: "Jay Baruchel, Gerard Butler, Christopher Mintz-Plasse",
         description: "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/8.jpg",
         recommend: [14,16,17,25]
       },
       "8": {
@@ -120,7 +120,7 @@ angular.module('recuserstudyApp')
         director: "Rian Johnson",
         actors: "Joseph Gordon-Levitt, Bruce Willis, Emily Blunt",
         description: "In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to 'close the loop' by sending back Joe's future self for assassination.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTY3NTY0MjEwNV5BMl5BanBnXkFtZTcwNTE3NDA1OA@@._V1_SY317_CR15,0,214,317_AL_.jpg",
+        image: "assets/images/all/9.jpg",
         recommend: [26,27,28,29]
       },
       "9": {
@@ -133,7 +133,7 @@ angular.module('recuserstudyApp')
         director: "James Cameron",
         actors: "Sam Worthington, Zoe Saldana",
         description: "A Paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SY317_CR0,0,214,317_AL_.jpg",
+        image: "assets/images/all/10.jpg",
         recommend: [30,31,32,33]
       },
       "10": {
@@ -146,7 +146,7 @@ angular.module('recuserstudyApp')
         director: "Robert Zemeckis",
         actors: "Tom Hanks, Robin Wright, Gary Sinise",
         description: "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTQwMTA5MzI1MF5BMl5BanBnXkFtZTcwMzY5Mzg3OA@@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/11.jpg",
         recommend: [2,3,34,35]
       },
       "11": {
@@ -159,7 +159,7 @@ angular.module('recuserstudyApp')
         director: "Chris Buck, Jennifer Lee",
         actors: "Kristen Bell, Idina Menzel, Jonathan Groff",
         description: "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/12.jpg",
         recommend: [36,37,38,16]
       },
       "12": {
@@ -172,7 +172,7 @@ angular.module('recuserstudyApp')
         director: "Ridley Scott",
         actors: "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
         description: "When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTgwMzQzNTQ1Ml5BMl5BanBnXkFtZTgwMDY2NTYxMTE@._V1_SY317_CR0,0,214,317_AL_.jpg",
+        image: "assets/images/all/13.jpg",
         recommend: [39,40,35,19]
       },
       "13": {
@@ -185,7 +185,7 @@ angular.module('recuserstudyApp')
         director: "Mel Gibson",
         actors: "Mel Gibson, Sophie Marceau, Patrick McGoohan",
         description: "When his secret bride is executed for assaulting an English soldier who tried to rape her, William Wallace begins a revolt and leads Scottish warriors against the cruel English tyrant who rules Scotland with an iron fist.",
-        image: "http://ia.media-imdb.com/images/M/MV5BNjA4ODYxMDU3Nl5BMl5BanBnXkFtZTcwMzkzMTk3OA@@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/14.jpg",
         recommend: [42,43,40,41]
       },
       "14": {
@@ -198,7 +198,7 @@ angular.module('recuserstudyApp')
         director: "James Cameron",
         actors: "Leonardo DiCaprio, Kate Winslet, Billy Zane",
         description: "A seventeen-year-old aristocrat falls in love with a kind, but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMjExNzM0NDM0N15BMl5BanBnXkFtZTcwMzkxOTUwNw@@._V1_SY317_CR0,0,214,317_AL_.jpg",
+        image: "assets/images/all/15.jpg",
         recommend: [9,31,44,45]
       },
       "15": {
@@ -211,7 +211,7 @@ angular.module('recuserstudyApp')
         director: "Roger Allers, Rob Minkoff",
         actors: "Matthew Broderick, Jeremy Irons, James Earl Jones",
         description: "Tricked into thinking that he caused the death of his father, a lion cub flees and abandons his destiny as the future king.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMjEyMzgwNTUzMl5BMl5BanBnXkFtZTcwNTMxMzM3Ng@@._V1_SY317_CR15,0,214,317_AL_.jpg",
+        image: "assets/images/all/16.jpg",
         recommend: [25,17,16,14]
       },
       "16": {
@@ -224,7 +224,7 @@ angular.module('recuserstudyApp')
         director: "Quentin Tarantino",
         actors: "John Travolta, Uma Thurman, Samuel L. Jackson",
         description: "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMjE0ODk2NjczOV5BMl5BanBnXkFtZTYwNDQ0NDg4._V1_SY317_CR4,0,214,317_AL_.jpg",
+        image: "assets/images/all/17.jpg",
         recommend: [2,19,46,47]
       },
       "17": {
@@ -237,7 +237,7 @@ angular.module('recuserstudyApp')
         director: "David O. Russell",
         actors: "Bradley Cooper, Jennifer Lawrence, Robert De Niro",
         description: "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/18.jpg",
         recommend: [48,4,49,50]
       },
       "18": {
@@ -250,7 +250,7 @@ angular.module('recuserstudyApp')
         director: "Christopher Nolan",
         actors: "Christian Bale, Heath Ledger, Aaron Eckhart",
         description: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg",
+        image: "assets/images/all/19.jpg",
         recommend: [20,3,35,51]
       },
       "19": {
@@ -263,7 +263,7 @@ angular.module('recuserstudyApp')
         director: "Andy Wachowski",
         actors: " Keanu Reeves, Laurence Fishburne, Carrie-Anne ",
         description: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/20.jpg",
         recommend: [51,3,2,47]
       },
       "20": {
@@ -276,7 +276,7 @@ angular.module('recuserstudyApp')
         director: "Bill Condon",
         actors: "Kristen Stewart, Robert Pattinson, Taylor Lautner",
         description: "After the birth of Renesmee, the Cullens gather other vampire clans in order to protect the child from a false allegation that puts the family in front of the Volturi.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1_SX214_AL_.jpg",
+        image: "assets/images/all/21.jpg",
         recommend: [52,53,54,55]
       },
       "21": {
@@ -289,7 +289,7 @@ angular.module('recuserstudyApp')
         director: "Gil Junger",
         actors: "Heath Ledger, Julia Stiles, Joseph Gordon-Levitt",
         description: "A new kid must find a guy to date the meanest girl in school, the older sister of the girl he has a crush on, who cannot date until her older sister does.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTI4MzU5OTc2MF5BMl5BanBnXkFtZTYwNzQxMjc5._V1_SY317_CR4,0,214,317_AL_.jpg",
+        image: "assets/images/all/22.jpg",
         recommend: [56,57,58,59]
       },
       "22": {
@@ -302,7 +302,7 @@ angular.module('recuserstudyApp')
         director: "Pierre Coffin, Chris Renaud",
         actors: " Steve Carell, Kristen Wiig, Benjamin Bratt",
         description: "When Gru, the world's most super-bad turned super-dad has been recruited by a team of officials to stop lethal muscle and a host of Gru's own, He has to fight back with new gadgetry, cars, and more minion madness.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1_SY317_CR0,0,214,317_AL_.jpg",
+        image: "assets/images/all/23.jpg",
         recommend: [16,38,60,37]
       },
       "23": {
@@ -315,7 +315,7 @@ angular.module('recuserstudyApp')
         director: "Andrew Stanton, Lee Unkrich",
         actors: "Albert Brooks, Ellen DeGeneres, Alexander Gould",
         description: "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTY1MTg1NDAxOV5BMl5BanBnXkFtZTcwMjg1MDI5Nw@@._V1_SY317_CR0,0,214,317_AL_.jpg",
+        image: "assets/images/all/24.jpg",
         recommend: [16,25,14,15]
       },
       "24": {
@@ -328,7 +328,7 @@ angular.module('recuserstudyApp')
         director: "M. Night Shyamalan",
         actors: "Bruce Willis, Haley Joel Osment, Toni Collette",
         description: "A boy who communicates with spirits that don't know they're dead seeks the help of a disheartened child psychologist.",
-        image: "http://ia.media-imdb.com/images/M/MV5BMTc2MTQxNDI5MV5BMl5BanBnXkFtZTYwNjkzMDc4._V1_SX214_AL_.jpg",
+        image: "assets/images/all/25.jpg",
         recommend: [61,40,43,46]
       }
     };
