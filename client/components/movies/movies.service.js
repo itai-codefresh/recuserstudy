@@ -344,7 +344,7 @@ angular.module('recuserstudyApp')
         director: "Quentin Tarantino, Eli Roth (uncredited)",
         actors: "Brad Pitt, Diane Kruger, Eli Roth",
         description: "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
-        image: "assets/images/MV5BMjIzMDI4MTUzOV5BMl5BanBnXkFtZTcwNDY3NjA3Mg@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMjIzMDI4MTUzOV5BMl5BanBnXkFtZTcwNDY3NjA3Mg@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "1": {
         name: "The Wolf of Wall Street",
@@ -356,7 +356,7 @@ angular.module('recuserstudyApp')
         director: "Martin Scorsese",
         actors: "Leonardo DiCaprio, Jonah Hill, Margot Robbie",
         description: "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
-        image: "assets/images/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX214_AL_.jpg"
       },
       "2": {
         name: "Fight Club",
@@ -368,7 +368,7 @@ angular.module('recuserstudyApp')
         director: "David Fincher",
         actors: "Brad Pitt, Edward Norton, Helena Bonham Carter",
         description: "An insomniac office worker looking for a way to change his life crosses paths with a devil-may-care soap maker and they form an underground fight club that evolves into something much, much more...",
-        image: "assets/images/MV5BMjIwNTYzMzE1M15BMl5BanBnXkFtZTcwOTE5Mzg3OA@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMjIwNTYzMzE1M15BMl5BanBnXkFtZTcwOTE5Mzg3OA@@._V1_SX214_AL_.jpg"
       },
       "3": {
         name: "Inception",
@@ -380,7 +380,7 @@ angular.module('recuserstudyApp')
         director: "Christopher Nolan",
         actors: "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
         description: "A thief who steals corporate secrets through use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-        image: "assets/images/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX214_AL_.jpg"
       },
       "4": {
         name: "Life of Pi",
@@ -392,7 +392,7 @@ angular.module('recuserstudyApp')
         director: "Ang Lee",
         actors: "Suraj Sharma, Irrfan Khan, Adil Hussain",
         description: "A young man who survives a disaster at sea is hurtled into an epic journey of adventure and discovery. While cast away, he forms an unexpected connection with another survivor: a fearsome Bengal tiger.",
-        image: "assets/images/MV5BNTg2OTY2ODg5OF5BMl5BanBnXkFtZTcwODM5MTYxOA@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BNTg2OTY2ODg5OF5BMl5BanBnXkFtZTcwODM5MTYxOA@@._V1_SX214_AL_.jpg"
       },
       "5": {
         name: "The Social Network",
@@ -404,7 +404,7 @@ angular.module('recuserstudyApp')
         director: "David Fincher",
         actors: "Jesse Eisenberg, Andrew Garfield, Justin Timberlake",
         description: "Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the cofounder who was later squeezed out of the business.",
-        image: "assets/images/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTM2ODk0NDAwMF5BMl5BanBnXkFtZTcwNTM1MDc2Mw@@._V1_SX214_AL_.jpg"
       },
       "6": {
         name: "Argo",
@@ -416,7 +416,7 @@ angular.module('recuserstudyApp')
         director: "Ben Affleck",
         actors: "Ben Affleck, Bryan Cranston, John Goodman",
         description: "Acting under the cover of a Hollywood producer scouting a location for a science fiction film, a CIA agent launches a dangerous operation to rescue six Americans in Tehran during the U.S. hostage crisis in Iran in 1980.",
-        image: "assets/images/MV5BMTc3MjI0MjM0NF5BMl5BanBnXkFtZTcwMTYxMTQ1OA@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTc3MjI0MjM0NF5BMl5BanBnXkFtZTcwMTYxMTQ1OA@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "7": {
         name: "Dallas Buyers Club",
@@ -440,7 +440,7 @@ angular.module('recuserstudyApp')
         director: "David O. Russell",
         actors: "Bradley Cooper, Jennifer Lawrence, Robert De Niro",
         description: "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
-        image: "assets/images/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_SX214_AL_.jpg"
       },
       "9": {
         name: "The Curious Case of Benjamin Button",
@@ -452,7 +452,7 @@ angular.module('recuserstudyApp')
         director: "David Fincher",
         actors: "Brad Pitt, Cate Blanchett, Tilda Swinton",
         description: "Tells the story of Benjamin Button, a man who starts aging backwards with bizarre consequences.",
-        image: "assets/images/MV5BNjQ0NTY2ODY2M15BMl5BanBnXkFtZTgwMjE4MzkxMDE@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BNjQ0NTY2ODY2M15BMl5BanBnXkFtZTgwMjE4MzkxMDE@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "10": {
         name: "Avengers: Age of Ultron",
@@ -464,7 +464,7 @@ angular.module('recuserstudyApp')
         director: "Joss Whedon",
         actors: "Robert Downey Jr., Chris Evans, Mark Ruffalo",
         description: "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's Mightiest Heroes to stop the villainous Ultron from enacting his terrible plans.",
-        image: "assets/images/MV5BMTU4MDU3NDQ5Ml5BMl5BanBnXkFtZTgwOTU5MDUxNTE@._V1_SY317_CR1,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTU4MDU3NDQ5Ml5BMl5BanBnXkFtZTgwOTU5MDUxNTE@._V1_SY317_CR1,0,214,317_AL_.jpg"
       },
       "11": {
         name: "Mad Max Beyond Thunderdome",
@@ -476,7 +476,7 @@ angular.module('recuserstudyApp')
         director: "George Miller, George Ogilvie",
         actors: "Mel Gibson, Tina Turner, Bruce Spence",
         description: "A former Australian policeman is rescued by a tribe of children when he is banished from a desert town and sent into the desert to die by the desert town's evil queen.",
-        image: "assets/images/MV5BMTk0MDQ5NTYxNV5BMl5BanBnXkFtZTcwNTA0ODYyMQ@@._V1_SY317_CR11,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTk0MDQ5NTYxNV5BMl5BanBnXkFtZTcwNTA0ODYyMQ@@._V1_SY317_CR11,0,214,317_AL_.jpg"
       },
       "12": {
         name: "Mad Max",
@@ -488,7 +488,7 @@ angular.module('recuserstudyApp')
         director: "George Miller",
         actors: "Mel Gibson, Joanne Samuel, Hugh Keays-Byrne",
         description: "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.",
-        image: "assets/images/MV5BMTM4Mjg5ODEzMV5BMl5BanBnXkFtZTcwMDc3NDk0NA@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTM4Mjg5ODEzMV5BMl5BanBnXkFtZTcwMDc3NDk0NA@@._V1_SX214_AL_.jpg"
       },
       "13": {
         name: "Tomorrowland",
@@ -500,7 +500,7 @@ angular.module('recuserstudyApp')
         director: "Brad Bird",
         actors: "George Clooney, Britt Robertson, Hugh Laurie",
         description: "Bound by a shared destiny, a teen bursting with scientific curiosity and a former boy-genius inventor embark on a mission to unearth the secrets of a place somewhere in time and space that exists in their collective memory.",
-        image: "assets/images/MV5BMTQ4OTgzNTkwNF5BMl5BanBnXkFtZTgwMzI3MDE3NDE@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTQ4OTgzNTkwNF5BMl5BanBnXkFtZTgwMzI3MDE3NDE@._V1_SX214_AL_.jpg"
       },
       "14": {
         name: "Up",
@@ -512,7 +512,7 @@ angular.module('recuserstudyApp')
         director: "Pete Docter, Bob Peterson",
         actors: "Edward Asner, Jordan Nagai, John Ratzenberger",
         description: "To avoid being taken away to a nursing home, an old widower tries to fly his home to Paradise Falls, South America, along with a boy scout who accidentally lifted off with him.",
-        image: "assets/images/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX214_AL_.jpg"
       },
       "15": {
         name: "The Lion King",
@@ -524,7 +524,7 @@ angular.module('recuserstudyApp')
         director: "Roger Allers, Rob Minkoff",
         actors: "Matthew Broderick, Jeremy Irons, James Earl Jones",
         description: "Tricked into thinking that he caused the death of his father, a lion cub flees and abandons his destiny as the future king.",
-        image: "assets/images/MV5BMjEyMzgwNTUzMl5BMl5BanBnXkFtZTcwNTMxMzM3Ng@@._V1_SY317_CR15,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMjEyMzgwNTUzMl5BMl5BanBnXkFtZTcwNTMxMzM3Ng@@._V1_SY317_CR15,0,214,317_AL_.jpg"
       },
       "16": {
         name: "Monsters, Inc.",
@@ -536,7 +536,7 @@ angular.module('recuserstudyApp')
         director: "Pete Docter, David Silverman",
         actors: "Billy Crystal, John Goodman, Mary Gibbs",
         description: "Monsters generate their city's power by scaring children, but they are terribly afraid themselves of being contaminated by children, so when one enters Monstropolis, top scarer Sulley finds his world disrupted.",
-        image: "assets/images/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX214_AL_.jpg"
       },
       "17": {
         name: "Finding Nemo",
@@ -548,7 +548,7 @@ angular.module('recuserstudyApp')
         director: "Andrew Stanton, Lee Unkrich",
         actors: "Albert Brooks, Ellen DeGeneres, Alexander Gould",
         description: "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
-        image: "assets/images/MV5BMTY1MTg1NDAxOV5BMl5BanBnXkFtZTcwMjg1MDI5Nw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTY1MTg1NDAxOV5BMl5BanBnXkFtZTcwMjg1MDI5Nw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "18": {
         name: "Django Unchained",
@@ -560,7 +560,7 @@ angular.module('recuserstudyApp')
         director: "Quentin Tarantino",
         actors: "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",
         description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
-        image: "assets/images/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX214_AL_.jpg"
       },
       "19": {
         name: "Forrest Gump",
@@ -572,7 +572,7 @@ angular.module('recuserstudyApp')
         director: "Robert Zemeckis",
         actors: "Tom Hanks, Robin Wright, Gary Sinise",
         description: "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
-        image: "assets/images/MV5BMTQwMTA5MzI1MF5BMl5BanBnXkFtZTcwMzY5Mzg3OA@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTQwMTA5MzI1MF5BMl5BanBnXkFtZTcwMzY5Mzg3OA@@._V1_SX214_AL_.jpg"
       },
       "20": {
         name: "The Dark Knight Rises",
@@ -584,7 +584,7 @@ angular.module('recuserstudyApp')
         director: "Christopher Nolan",
         actors: "Christian Bale, Tom Hardy, Anne Hathaway",
         description: "Eight years after the Joker's reign of anarchy, the Dark Knight is forced to return from his imposed exile to save Gotham City from the brutal guerrilla terrorist Bane with the help of the enigmatic Catwoman.",
-        image: "assets/images/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX214_AL_.jpg"
       },
       "21": {
         name: "Burn After Reading",
@@ -596,7 +596,7 @@ angular.module('recuserstudyApp')
         director: "Ethan Coen, Joel Coen",
         actors: "Brad Pitt, Frances McDormand, George Clooney",
         description: "A disk containing the memoirs of a CIA agent ends up in the hands of two unscrupulous gym employees who attempt to sell it.",
-        image: "assets/images/MV5BMTczNjQxODE0N15BMl5BanBnXkFtZTcwMzIxMjc3MQ@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTczNjQxODE0N15BMl5BanBnXkFtZTcwMzIxMjc3MQ@@._V1_SX214_AL_.jpg"
       },
       "22": {
         name: "O Brother, Where Art Thou?",
@@ -608,7 +608,7 @@ angular.module('recuserstudyApp')
         director: "Joel Coen, Ethan Coen (uncredited)",
         actors: "George Clooney, John Turturro, Tim Blake Nelson",
         description: "In the deep south during the 1930s, three escaped convicts search for hidden treasure while a relentless lawman pursues them.",
-        image: "assets/images/MV5BMTI3MTEwMTAzMF5BMl5BanBnXkFtZTYwMTMxNTI5._V1_SY317_CR5,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTI3MTEwMTAzMF5BMl5BanBnXkFtZTYwMTMxNTI5._V1_SY317_CR5,0,214,317_AL_.jpg"
       },
       "23": {
         name: "Miller's Crossing",
@@ -620,7 +620,7 @@ angular.module('recuserstudyApp')
         director: "Joel Coen, Ethan Coen (uncredited)",
         actors: "Gabriel Byrne, Albert Finney, John Turturro",
         description: "Tom Regan, an advisor to a Prohibition-era crime boss, tries to keep the peace between warring mobs but gets caught in divided loyalties.",
-        image: "assets/images/MV5BMTk2NDIxNzEyNF5BMl5BanBnXkFtZTYwMjk2NTk5._V1_SY317_CR5,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTk2NDIxNzEyNF5BMl5BanBnXkFtZTYwMjk2NTk5._V1_SY317_CR5,0,214,317_AL_.jpg"
       },
       "24": {
         name: "A Serious Man",
@@ -632,7 +632,7 @@ angular.module('recuserstudyApp')
         director: "Ethan Coen, Joel Coen",
         actors: "Michael Stuhlbarg, Richard Kind, Sari Lennick",
         description: "Larry Gopnik, a Midwestern physics teacher, watches his life unravel over multiple sudden incidents. Though seeking meaning and answers amidst his turmoils, he seems to keep sinking.",
-        image: "assets/images/MV5BMjAwODUxMjA0M15BMl5BanBnXkFtZTcwNjIyMzY3Mg@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMjAwODUxMjA0M15BMl5BanBnXkFtZTcwNjIyMzY3Mg@@._V1_SX214_AL_.jpg"
       },
       "25": {
         name: "Toy Story 3",
@@ -644,7 +644,7 @@ angular.module('recuserstudyApp')
         director: "Lee Unkrich",
         actors: "Tom Hanks, Tim Allen, Joan Cusack",
         description: "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
-        image: "assets/images/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SY317_CR5,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SY317_CR5,0,214,317_AL_.jpg"
       },
       "26": {
         name: "Oblivion",
@@ -656,7 +656,7 @@ angular.module('recuserstudyApp')
         director: "Joseph Kosinski",
         actors: "Tom Cruise, Morgan Freeman, Andrea Riseborough",
         description: "A veteran assigned to extract Earth's remaining resources begins to question what he knows about his mission and himself.",
-        image: "assets/images/MV5BMTQwMDY0MTA4MF5BMl5BanBnXkFtZTcwNzI3MDgxOQ@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTQwMDY0MTA4MF5BMl5BanBnXkFtZTcwNzI3MDgxOQ@@._V1_SX214_AL_.jpg"
       },
       "27": {
         name: "World War Z",
@@ -668,7 +668,7 @@ angular.module('recuserstudyApp')
         director: "Marc Forster",
         actors: "Brad Pitt, Mireille Enos, Daniella Kertesz",
         description: "United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself.",
-        image: "assets/images/MV5BMTg0NTgxMjIxOF5BMl5BanBnXkFtZTcwMDM0MDY1OQ@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTg0NTgxMjIxOF5BMl5BanBnXkFtZTcwMDM0MDY1OQ@@._V1_SX214_AL_.jpg"
       },
       "28": {
         name: "Elysium",
@@ -680,7 +680,7 @@ angular.module('recuserstudyApp')
         director: "Neill Blomkamp",
         actors: "Matt Damon, Jodie Foster, Sharlto Copley",
         description: "In the year 2154, the very wealthy live on a man-made space station while the rest of the population resides on a ruined Earth. A man takes on a mission that could bring equality to the polarized worlds.",
-        image: "assets/images/MV5BNDc2NjU0MTcwNV5BMl5BanBnXkFtZTcwMjg4MDg2OQ@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BNDc2NjU0MTcwNV5BMl5BanBnXkFtZTcwMjg4MDg2OQ@@._V1_SX214_AL_.jpg"
       },
       "29": {
         name: "I Am Legend",
@@ -692,7 +692,7 @@ angular.module('recuserstudyApp')
         director: "Francis Lawrence",
         actors: "Will Smith, Alice Braga, Charlie Tahan",
         description: "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.",
-        image: "assets/images/MV5BMTU4NzMyNDk1OV5BMl5BanBnXkFtZTcwOTEwMzU1MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTU4NzMyNDk1OV5BMl5BanBnXkFtZTcwOTEwMzU1MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "30": {
         name: "Titanic",
@@ -704,7 +704,7 @@ angular.module('recuserstudyApp')
         director: "James Cameron",
         actors: "Leonardo DiCaprio, Kate Winslet, Billy Zane",
         description: "A seventeen-year-old aristocrat falls in love with a kind, but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
-        image: "assets/images/MV5BMjExNzM0NDM0N15BMl5BanBnXkFtZTcwMzkxOTUwNw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMjExNzM0NDM0N15BMl5BanBnXkFtZTcwMzkxOTUwNw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "31": {
         name: "The Hunger Games",
@@ -716,7 +716,7 @@ angular.module('recuserstudyApp')
         director: "Gary Ross",
         actors: "Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth",
         description: "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games, a televised fight to the death in which two teenagers from each of the twelve Districts of Panem are chosen at random to compete.",
-        image: "assets/images/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX214_AL_.jpg"
       },
       "32": {
         name: "Iron Man",
@@ -728,7 +728,7 @@ angular.module('recuserstudyApp')
         director: "Jon Favreau",
         actors: "Robert Downey Jr., Gwyneth Paltrow, Terrence ",
         description: "After being held captive in an Afghan cave, an industrialist creates a unique weaponized suit of armor to fight evil.",
-        image: "assets/images/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX214_AL_.jpg"
       },
       "33": {
         name: "The Hobbit: An Unexpected Journey",
@@ -740,7 +740,7 @@ angular.module('recuserstudyApp')
         director: "Peter Jackson",
         actors: "Martin Freeman, Ian McKellen, Richard Armitage",
         description: "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home - and the gold within it - from the dragon Smaug.",
-        image: "assets/images/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX214_AL_.jpg"
       },
       "34": {
         name: "Pulp Fiction",
@@ -752,7 +752,7 @@ angular.module('recuserstudyApp')
         director: "Quentin Tarantino",
         actors: "John Travolta, Uma Thurman, Samuel L. Jackson",
         description: "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-        image: "assets/images/MV5BMjE0ODk2NjczOV5BMl5BanBnXkFtZTYwNDQ0NDg4._V1_SY317_CR4,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMjE0ODk2NjczOV5BMl5BanBnXkFtZTYwNDQ0NDg4._V1_SY317_CR4,0,214,317_AL_.jpg"
       },
       "35": {
         name: "The Matrix",
@@ -764,7 +764,7 @@ angular.module('recuserstudyApp')
         director: "Andy Wachowski",
         actors: " Keanu Reeves, Laurence Fishburne, Carrie-Anne ",
         description: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-        image: "assets/images/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1_SX214_AL_.jpg"
       },
       "36": {
         name: "Despicable Me 2",
@@ -776,7 +776,7 @@ angular.module('recuserstudyApp')
         director: "Pierre Coffin, Chris Renaud",
         actors: " Steve Carell, Kristen Wiig, Benjamin Bratt",
         description: "When Gru, the world's most super-bad turned super-dad has been recruited by a team of officials to stop lethal muscle and a host of Gru's own, He has to fight back with new gadgetry, cars, and more minion madness.",
-        image: "assets/images/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "37": {
         name: "Brave",
@@ -788,7 +788,7 @@ angular.module('recuserstudyApp')
         director: " Mark Andrews, Brenda Chapman",
         actors: "Kelly Macdonald, Billy Connolly, Emma Thompson",
         description: "Determined to make her own path in life, Princess Merida defies a custom that brings chaos to her kingdom. Granted one wish, Merida must rely on her bravery and her archery skills to undo a beastly curse.",
-        image: "assets/images/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMzgwODk3ODA1NF5BMl5BanBnXkFtZTcwNjU3NjQ0Nw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "38": {
         name: "Tangled ",
@@ -800,7 +800,7 @@ angular.module('recuserstudyApp')
         director: "Nathan Greno, Byron Howard",
         actors: "Mandy Moore, Zachary Levi, Donna Murphy",
         description: "The magically long-haired Rapunzel has spent her entire life in a tower, but now that a runaway thief has stumbled upon her, she is about to discover the world for the first time, and who she really is.",
-        image: "assets/images/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_SX214_AL_.jpg"
       },
       "39": {
         name: "Braveheart",
@@ -812,7 +812,7 @@ angular.module('recuserstudyApp')
         director: "Mel Gibson",
         actors: "Mel Gibson, Sophie Marceau, Patrick McGoohan",
         description: "When his secret bride is executed for assaulting an English soldier who tried to rape her, William Wallace begins a revolt and leads Scottish warriors against the cruel English tyrant who rules Scotland with an iron fist.",
-        image: "assets/images/MV5BNjA4ODYxMDU3Nl5BMl5BanBnXkFtZTcwMzkzMTk3OA@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BNjA4ODYxMDU3Nl5BMl5BanBnXkFtZTcwMzkzMTk3OA@@._V1_SX214_AL_.jpg"
       },
       "40": {
         name: "The Green Mile",
@@ -824,7 +824,7 @@ angular.module('recuserstudyApp')
         director: "Frank Darabont",
         actors: "Tom Hanks, Michael Clarke Duncan, David Morse",
         description: "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
-        image: "assets/images/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "41": {
         name: "Gladiator",
@@ -836,7 +836,7 @@ angular.module('recuserstudyApp')
         director: "Ridley Scott",
         actors: "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
         description: "When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.",
-        image: "assets/images/MV5BMTgwMzQzNTQ1Ml5BMl5BanBnXkFtZTgwMDY2NTYxMTE@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTgwMzQzNTQ1Ml5BMl5BanBnXkFtZTgwMDY2NTYxMTE@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "42": {
         name: "Saving Private Ryan",
@@ -848,7 +848,7 @@ angular.module('recuserstudyApp')
         director: "Steven Spielberg",
         actors: "Tom Hanks, Matt Damon, Tom Sizemore",
         description: "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
-        image: "assets/images/MV5BNjczODkxNTAxN15BMl5BanBnXkFtZTcwMTcwNjUxMw@@._V1_SY317_CR9,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BNjczODkxNTAxN15BMl5BanBnXkFtZTcwMTcwNjUxMw@@._V1_SY317_CR9,0,214,317_AL_.jpg"
       },
       "43": {
         name: "The Silence of the Lambs",
@@ -860,7 +860,7 @@ angular.module('recuserstudyApp')
         director: "Jonathan Demme",
         actors: " Jodie Foster, Anthony Hopkins, Lawrence A. Bonney",
         description: "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.",
-        image: "assets/images/MV5BMTQ2NzkzMDI4OF5BMl5BanBnXkFtZTcwMDA0NzE1NA@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTQ2NzkzMDI4OF5BMl5BanBnXkFtZTcwMDA0NzE1NA@@._V1_SX214_AL_.jpg"
       },
       "44": {
         name: "Slumdog Millionaire",
@@ -872,7 +872,7 @@ angular.module('recuserstudyApp')
         director: "Danny Boyle, Loveleen Tandan",
         actors: "Dev Patel, Freida Pinto, Saurabh Shukla",
         description: 'A Mumbai teen, who grew up in the slums, becomes a contestant on the Indian version of "Who Wants To Be A Millionaire?" He is arrested under suspicion of cheating, and while being interrogated, events from his life history are shown which explain why he knows the answers.',
-        image: "assets/images/MV5BMTU2NTA5NzI0N15BMl5BanBnXkFtZTcwMjUxMjYxMg@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTU2NTA5NzI0N15BMl5BanBnXkFtZTcwMjUxMjYxMg@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "45": {
         name: "Avatar",
@@ -884,7 +884,7 @@ angular.module('recuserstudyApp')
         director: "James Cameron",
         actors: "Sam Worthington, Zoe Saldana",
         description: "A Paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home",
-        image: "assets/images/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "46": {
         name: "Se7en",
@@ -896,7 +896,7 @@ angular.module('recuserstudyApp')
         director: "David Fincher",
         actors: "Morgan Freeman, Brad Pitt, Kevin Spacey",
         description: "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his modus operandi.",
-        image: "assets/images/MV5BMTQwNTU3MTE4NF5BMl5BanBnXkFtZTcwOTgxNDM2Mg@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTQwNTU3MTE4NF5BMl5BanBnXkFtZTcwOTgxNDM2Mg@@._V1_SX214_AL_.jpg"
       },
       "47": {
         name: "The Dark Knight",
@@ -908,7 +908,7 @@ angular.module('recuserstudyApp')
         director: "Christopher Nolan",
         actors: "Christian Bale, Heath Ledger, Aaron Eckhart",
         description: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
-        image: "assets/images/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "48": {
         name: "American Hustle",
@@ -920,7 +920,7 @@ angular.module('recuserstudyApp')
         director: "David O. Russell",
         actors: "Christian Bale, Amy Adams, Bradley Cooper",
         description: "A con man, Irving Rosenfeld, along with his seductive partner Sydney Prosser, is forced to work for a wild FBI agent, Richie DiMaso, who pushes them into a world of Jersey powerbrokers and mafia.",
-        image: "assets/images/MV5BNjkxMTc0MDc4N15BMl5BanBnXkFtZTgwODUyNTI1MDE@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BNjkxMTc0MDc4N15BMl5BanBnXkFtZTgwODUyNTI1MDE@._V1_SX214_AL_.jpg"
       },
       "49": {
         name: "Black Swan",
@@ -932,7 +932,7 @@ angular.module('recuserstudyApp')
         director: "Darren Aronofsky",
         actors: "Natalie Portman, Mila Kunis, Vincent Cassel",
         description: 'A ballet dancer wins the lead in "Swan Lake" and is perfect for the role of the delicate White Swan - Princess Odette - but slowly loses her mind as she becomes more and more like Odile, the Black Swan.',
-        image: "assets/images/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX214_AL_.jpg"
       },
       "50": {
         name: "The Perks of Being a Wallflower",
@@ -944,7 +944,7 @@ angular.module('recuserstudyApp')
         director: "Stephen Chbosky",
         actors: "Logan Lerman, Emma Watson, Ezra Miller",
         description: "An introvert freshman is taken under the wings of two seniors who welcome him to the real world.",
-        image: "assets/images/MV5BMzIxOTQyODU1OV5BMl5BanBnXkFtZTcwMDQ4Mjg4Nw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMzIxOTQyODU1OV5BMl5BanBnXkFtZTcwMDQ4Mjg4Nw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "51": {
         name: "The Lord of the Rings: The Return of the King",
@@ -956,7 +956,7 @@ angular.module('recuserstudyApp')
         director: "Peter Jackson",
         actors: "Elijah Wood, Viggo Mortensen, Ian McKellen",
         description: "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-        image: "assets/images/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1_SX214_AL_.jpg"
       },
       "52": {
         name: "The Twilight Saga: Breaking Dawn - Part 1",
@@ -968,7 +968,7 @@ angular.module('recuserstudyApp')
         director: "Bill Condon",
         actors: "Kristen Stewart, Robert Pattinson, Taylor Lautner",
         description: "The Quileutes close in on expecting parents Edward and Bella, whose unborn child poses a threat to the Wolf Pack and the towns people of Forks.",
-        image: "assets/images/MV5BODgxNDE0OTAzOF5BMl5BanBnXkFtZTcwNzcwODE2Ng@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BODgxNDE0OTAzOF5BMl5BanBnXkFtZTcwNzcwODE2Ng@@._V1_SX214_AL_.jpg"
       },
       "53": {
         name: "The Twilight Saga: Eclipse",
@@ -980,7 +980,7 @@ angular.module('recuserstudyApp')
         director: "David Slade",
         actors: "Kristen Stewart, Robert Pattinson, Taylor Lautner",
         description: "As a string of mysterious killings grips Seattle, Bella, whose high school graduation is fast approaching, is forced to choose between her love for vampire Edward and her friendship with werewolf Jacob.",
-        image: "assets/images/MV5BNDMwNjAzNzYwOF5BMl5BanBnXkFtZTcwMDY5NzcyMw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BNDMwNjAzNzYwOF5BMl5BanBnXkFtZTcwMDY5NzcyMw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "54": {
         name: "Snow White and the Huntsman",
@@ -992,7 +992,7 @@ angular.module('recuserstudyApp')
         director: "Rupert Sanders",
         actors: " Kristen Stewart, Chris Hemsworth, Charlize Theron",
         description: "In a twist to the fairy tale, the Huntsman ordered to take Snow White into the woods to be killed winds up becoming her protector and mentor in a quest to vanquish the Evil Queen.",
-        image: "assets/images/MV5BMTQ1NDA0MTk5OV5BMl5BanBnXkFtZTcwMTM4NDMwNw@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTQ1NDA0MTk5OV5BMl5BanBnXkFtZTcwMTM4NDMwNw@@._V1_SX214_AL_.jpg"
       },
       "55": {
         name: "Red Riding Hood",
@@ -1004,7 +1004,7 @@ angular.module('recuserstudyApp')
         director: "Catherine Hardwicke",
         actors: "Amanda Seyfried, Lukas Haas, Gary Oldman",
         description: "Set in a medieval village that is haunted by a werewolf, a young girl falls for an orphaned woodcutter, much to her family's displeasure.",
-        image: "assets/images/MV5BMTc4NjYyMzQ5MV5BMl5BanBnXkFtZTcwNjE5Mjc3NA@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTc4NjYyMzQ5MV5BMl5BanBnXkFtZTcwNjE5Mjc3NA@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "56": {
         name: "Clueless",
@@ -1016,7 +1016,7 @@ angular.module('recuserstudyApp')
         director: "Amy Heckerling",
         actors: "Alicia Silverstone, Stacey Dash, Brittany Murphy",
         description: "A rich high school student tries to boost a new pupil's popularity, but reckons without affairs of the heart getting in the way.",
-        image: "assets/images/MV5BMTgxODIxODE2MF5BMl5BanBnXkFtZTgwOTA4NjQxMTE@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMTgxODIxODE2MF5BMl5BanBnXkFtZTgwOTA4NjQxMTE@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "57": {
         name: "She's the Man",
@@ -1028,7 +1028,7 @@ angular.module('recuserstudyApp')
         director: "Andy Fickman",
         actors: "Amanda Bynes, Laura Ramsey, Channing Tatum",
         description: "When her brother decides to ditch for a couple weeks in London, Viola heads over to his elite boarding school, disguises herself as him, and proceeds to fall for one of her soccer teammates. Little does she realize she's not the only one with romantic troubles, as she, as he, gets in the middle of a series of intermingled love affairs.",
-        image: "assets/images/MV5BMjEyMzAzMDk1Ml5BMl5BanBnXkFtZTcwNjg0OTEzMQ@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMjEyMzAzMDk1Ml5BMl5BanBnXkFtZTcwNjg0OTEzMQ@@._V1_SX214_AL_.jpg"
       },
       "58": {
         name: "Easy A",
@@ -1040,7 +1040,7 @@ angular.module('recuserstudyApp')
         director: "Will Gluck",
         actors: "Emma Stone, Amanda Bynes, Penn Badgley",
         description: "A clean-cut high school student relies on the school's rumor mill to advance her social and financial standing.",
-        image: "assets/images/MV5BMjE1MzU1Mjg1OF5BMl5BanBnXkFtZTcwNDc3NDQ2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMjE1MzU1Mjg1OF5BMl5BanBnXkFtZTcwNDc3NDQ2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "59": {
         name: "Mean Girls",
@@ -1052,7 +1052,7 @@ angular.module('recuserstudyApp')
         director: "Mark Waters",
         actors: "Lindsay Lohan, Jonathan Bennett, Rachel McAdams",
         description: "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
-        image: "assets/images/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_SY317_CR5,0,214,317_AL_.jpg"
+        image: "assets/images/rec/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_SY317_CR5,0,214,317_AL_.jpg"
       },
       "60": {
         name: "Frozen",
@@ -1064,7 +1064,7 @@ angular.module('recuserstudyApp')
         director: "Chris Buck, Jennifer Lee",
         actors: "Kristen Bell, Idina Menzel, Jonathan Groff",
         description: "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
-        image: "assets/images/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX214_AL_.jpg"
       },
       "61": {
         name: "The Truman Show",
@@ -1076,7 +1076,7 @@ angular.module('recuserstudyApp')
         director: "Peter Weir",
         actors: "Jim Carrey, Ed Harris, Laura Linney",
         description: "An insurance salesman/adjuster discovers his entire life is actually a T.V. show.",
-        image: "assets/images/MV5BMTM4NjY2MTEzM15BMl5BanBnXkFtZTcwMTk2Njk3OA@@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTM4NjY2MTEzM15BMl5BanBnXkFtZTcwMTk2Njk3OA@@._V1_SX214_AL_.jpg"
       }
     };
 
