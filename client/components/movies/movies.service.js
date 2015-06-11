@@ -17,7 +17,7 @@ angular.module('recuserstudyApp')
         actors: "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",
         description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
         image: "assets/images/all/1.jpg",
-        recommend: [0,1,2,3]
+        recommend: [0,1,2,63]
       },
       "1": {
         name: "Gravity",
@@ -43,7 +43,7 @@ angular.module('recuserstudyApp')
         actors: "Natalie Portman, Mila Kunis, Vincent Cassel",
         description: 'A ballet dancer wins the lead in "Swan Lake" and is perfect for the role of the delicate White Swan - Princess Odette - but slowly loses her mind as she becomes more and more like Odile, the Black Swan.',
         image: "assets/images/all/3.jpg",
-        recommend: [4,5,8,9]
+        recommend: [4,5,64,9]
       },
       "3": {
         name: "Mad Max: Fury Road",
@@ -69,7 +69,7 @@ angular.module('recuserstudyApp')
         actors: "Tom Hanks, Tim Allen, Joan Cusack",
         description: "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
         image: "assets/images/all/5.jpg",
-        recommend: [14,15,16,17]
+        recommend: [14,65,16,66]
       },
       "5": {
         name: "Inception",
@@ -82,7 +82,7 @@ angular.module('recuserstudyApp')
         actors: "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
         description: "A thief who steals corporate secrets through use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
         image: "assets/images/all/6.jpg",
-        recommend: [2,18,19,20]
+        recommend: [2,67,67,20]
       },
       "6": {
         name: "True Grit",
@@ -108,7 +108,7 @@ angular.module('recuserstudyApp')
         actors: "Jay Baruchel, Gerard Butler, Christopher Mintz-Plasse",
         description: "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
         image: "assets/images/all/8.jpg",
-        recommend: [14,16,17,25]
+        recommend: [14,16,69,70]
       },
       "8": {
         name: "Looper",
@@ -134,7 +134,7 @@ angular.module('recuserstudyApp')
         actors: "Sam Worthington, Zoe Saldana",
         description: "A Paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home",
         image: "assets/images/all/10.jpg",
-        recommend: [30,31,32,33]
+        recommend: [71,31,32,33]
       },
       "10": {
         name: "Forrest Gump",
@@ -147,7 +147,7 @@ angular.module('recuserstudyApp')
         actors: "Tom Hanks, Robin Wright, Gary Sinise",
         description: "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
         image: "assets/images/all/11.jpg",
-        recommend: [2,3,34,35]
+        recommend: [2,72,73,74]
       },
       "11": {
         name: "Frozen",
@@ -160,7 +160,7 @@ angular.module('recuserstudyApp')
         actors: "Kristen Bell, Idina Menzel, Jonathan Groff",
         description: "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
         image: "assets/images/all/12.jpg",
-        recommend: [36,37,38,16]
+        recommend: [75,37,38,16]
       },
       "12": {
         name: "Gladiator",
@@ -173,7 +173,7 @@ angular.module('recuserstudyApp')
         actors: "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
         description: "When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.",
         image: "assets/images/all/13.jpg",
-        recommend: [39,40,35,19]
+        recommend: [76,40,77,78]
       },
       "13": {
         name: "Braveheart",
@@ -186,7 +186,7 @@ angular.module('recuserstudyApp')
         actors: "Mel Gibson, Sophie Marceau, Patrick McGoohan",
         description: "When his secret bride is executed for assaulting an English soldier who tried to rape her, William Wallace begins a revolt and leads Scottish warriors against the cruel English tyrant who rules Scotland with an iron fist.",
         image: "assets/images/all/14.jpg",
-        recommend: [42,43,40,41]
+        recommend: [42,43,40,79]
       },
       "14": {
         name: "Titanic",
@@ -199,7 +199,7 @@ angular.module('recuserstudyApp')
         actors: "Leonardo DiCaprio, Kate Winslet, Billy Zane",
         description: "A seventeen-year-old aristocrat falls in love with a kind, but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
         image: "assets/images/all/15.jpg",
-        recommend: [9,31,44,45]
+        recommend: [9,31,44,80]
       },
       "15": {
         name: "The Lion King",
@@ -212,7 +212,7 @@ angular.module('recuserstudyApp')
         actors: "Matthew Broderick, Jeremy Irons, James Earl Jones",
         description: "Tricked into thinking that he caused the death of his father, a lion cub flees and abandons his destiny as the future king.",
         image: "assets/images/all/16.jpg",
-        recommend: [25,17,16,14]
+        recommend: [81,82,16,14]
       },
       "16": {
         name: "Pulp Fiction",
@@ -225,7 +225,7 @@ angular.module('recuserstudyApp')
         actors: "John Travolta, Uma Thurman, Samuel L. Jackson",
         description: "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
         image: "assets/images/all/17.jpg",
-        recommend: [2,19,46,47]
+        recommend: [2,83,46,84]
       },
       "17": {
         name: "Silver Linings Playbook",
@@ -251,7 +251,7 @@ angular.module('recuserstudyApp')
         actors: "Christian Bale, Heath Ledger, Aaron Eckhart",
         description: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
         image: "assets/images/all/19.jpg",
-        recommend: [20,3,35,51]
+        recommend: [20,86,85,51]
       },
       "19": {
         name: "The Matrix",
@@ -264,7 +264,7 @@ angular.module('recuserstudyApp')
         actors: " Keanu Reeves, Laurence Fishburne, Carrie-Anne ",
         description: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
         image: "assets/images/all/20.jpg",
-        recommend: [51,3,2,47]
+        recommend: [51,87,2,88]
       },
       "20": {
         name: "The Twilight Saga: Breaking Dawn - Part 2",
@@ -316,7 +316,7 @@ angular.module('recuserstudyApp')
         actors: "Albert Brooks, Ellen DeGeneres, Alexander Gould",
         description: "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
         image: "assets/images/all/24.jpg",
-        recommend: [16,25,14,15]
+        recommend: [16,89,14,90]
       },
       "24": {
         name: "The Sixth Sense",
@@ -330,6 +330,279 @@ angular.module('recuserstudyApp')
         description: "A boy who communicates with spirits that don't know they're dead seeks the help of a disheartened child psychologist.",
         image: "assets/images/all/25.jpg",
         recommend: [61,40,43,46]
+      },
+      "25": {
+        name: "Nightcrawler",
+        year: "2014",
+        datePublished: "30 October 2014",
+        country: "USA",
+        length: 117,
+        category: "Crime, Thriller",
+        director: "Dan Gilroy",
+        actors: "Jake Gyllenhaal, Rene Russo, Bill Paxton",
+        description: "When Lou Bloom, a driven man desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
+        image: "assets/images/all/26.jpg"
+        recommend: [3,8,15,17]
+      },
+      "26": {
+        name: "The Godfather",
+        year: "1972",
+        datePublished: "24 March 1972",
+        country: "USA",
+        length: 175,
+        category: "Crime, Drama",
+        director: "Francis Ford Coppola",
+        actors: "Marlon Brando, Al Pacino, James Caan",
+        description: "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        image: "assets/images/all/27.jpg"
+        recommend: [18,19,25,20]
+      },
+      "27": {
+        name: "The Big Lebowski",
+        year: "1998",
+        datePublished: "6 March 1998",
+        country: "USA, UK",
+        length: 117,
+        category: "Comedy, Crime",
+        director: "Keitel, \nTim Roth, \nMichael Madsen",
+        actors: "Jeff Bridges, John Goodman, Julianne Moore",
+        description: ""The Dude" Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
+        image: "assets/images/all/28.jpg"
+        recommend: [30,34,35,36]
+      },
+      "28": {
+        name: "The Aviator",
+        year: "2004",
+        datePublished: "27 January 2005",
+        country: "USA, Germany",
+        length: 170,
+        category: "Biography, Drama",
+        director: "Martin Scorsese",
+        actors: "Leonardo DiCaprio, Cate Blanchett, Kate Beckinsale",
+        description: "A biopic depicting the early years of legendary director and aviator ",
+        image: "assets/images/all/29.jpg"
+        recommend: [39,41,45,47]
+      },
+      "29": {
+        name: "8 Mile",
+        year: "2002",
+        datePublished: "16 January 2003",
+        country: "USA, Germany",
+        length: 110,
+        category: "Drama, Music",
+        director: "Curtis Hanson",
+        actors: "Eminem, Brittany Murphy, Kim Basinger",
+        description: "A young rapper, struggling with every aspect of his life, wants to make the most of what could be his final opportunity but his problems around gives him doubts.",
+        image: "assets/images/all/30.jpg"
+        recommend: [49,52,60,62]
+      },
+      "30": {
+        name: "Hitch",
+        year: "2005",
+        datePublished: "24 February 2005",
+        country: "USA",
+        length: 118,
+        category: "Comedy, Romance",
+        director: "Andy Tennant",
+        actors: "Will Smith, Eva Mendes, Kevin James",
+        description: "While helping his latest client woo the fine lady of his dreams, a professional "date doctor" finds that his game doesn't quite work on the gossip columnist with whom he's smitten.",
+        image: "assets/images/all/31.jpg"
+        recommend: [91,92,93,94]
+      },
+      "31": {
+        name: "12 Years a Slave",
+        year: "2013",
+        datePublished: "16 January 2014",
+        country: "USA, UK",
+        length: 134,
+        category: "Biography, Drama, History",
+        director: "Steve McQueen",
+        actors: "Chiwetel Ejiofor, Michael Kenneth Williams, Michael Fassbender",
+        description: "In the antebellum United States, ",
+        image: "assets/images/all/32.jpg"
+        recommend: [95,96,97,98]
+      },
+      "32": {
+        name: "Sex and the City",
+        year: "2008",
+        datePublished: "29 May 2008",
+        country: "USA",
+        length: 145,
+        category: "Comedy, Drama, Romance",
+        director: "Michael Patrick King",
+        actors: "Sarah Jessica Parker, Kim Cattrall, Cynthia Nixon",
+        description: "A New York writer on sex and love is finally getting married to her Mr. Big. But her three best girlfriends must console her after one of them inadvertently leads Mr. Big to jilt her.",
+        image: "assets/images/all/33.jpg"
+        recommend: [99,100,101,102]
+      },
+      "33": {
+        name: "The Ugly Truth",
+        year: "2009",
+        datePublished: "13 August 2009",
+        country: "USA",
+        length: 96,
+        category: "Comedy, Romance",
+        director: "Robert Luketic",
+        actors: "Katherine Heigl, Gerard Butler, Bree Turner",
+        description: "A romantically challenged morning show producer is reluctantly embroiled in a series of outrageous tests by her chauvinistic correspondent to prove his theories on relationships and help ...                ",
+        image: "assets/images/all/34.jpg"
+        recommend: [103,104,105,106]
+      },
+      "34": {
+        name: "Gone Girl",
+        year: "2014",
+        datePublished: "16 October 2014",
+        country: "USA",
+        length: 149,
+        category: "Drama, Mystery, Thriller",
+        director: "David Fincher",
+        actors: "Ben Affleck, Rosamund Pike, Neil Patrick Harris",
+        description: "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+        image: "assets/images/all/35.jpg"
+        recommend: [107,108,109,110]
+      },
+      "35": {
+        name: "The Imitation Game",
+        year: "2014",
+        datePublished: "8 January 2015",
+        country: "UK, USA",
+        length: 114,
+        category: "Biography, Drama, Thriller",
+        director: "Morten Tyldum",
+        actors: "Benedict Cumberbatch, Keira Knightley, Matthew Goode",
+        description: "During World War II, mathematician Alan Turing tries to crack the enigma code with help from fellow mathematicians.",
+        image: "assets/images/all/36.jpg"
+        recommend: [111,112,113,114]
+      },
+      "36": {
+        name: "(500) Days of Summer",
+        year: "2009",
+        datePublished: "12 November 2009",
+        country: "USA",
+        length: 95,
+        category: "Comedy, Drama, Romance",
+        director: "Marc Webb",
+        actors: "Zooey Deschanel, Joseph Gordon-Levitt, Geoffrey Arend",
+        description: "An offbeat romantic comedy about a woman who doesn't believe true love exists, and the young man who falls for her.",
+        image: "assets/images/all/37.jpg"
+        recommend: [**,**,**,**]
+      },
+      "37": {
+        name: "22 Jump Street",
+        year: "2014",
+        datePublished: "12 June 2014",
+        country: "USA",
+        length: 112,
+        category: "Action, Comedy, Crime",
+        director: "en, \nRose Byrne, \nZac Efron",
+        actors: "Channing Tatum, Jonah Hill, Ice Cube",
+        description: "After making their way through high school (twice), big changes are in store for officers Schmidt and Jenko when they go deep undercover at a local college.",
+        image: "assets/images/all/38.jpg"
+        recommend: [**,**,**,**]
+      },
+      "38": {
+        name: "Captain Phillips",
+        year: "2013",
+        datePublished: "17 October 2013",
+        country: "USA",
+        length: 134,
+        category: "Biography, Drama, Thriller",
+        director: "Paul Greengrass",
+        actors: "Tom Hanks, Barkhad Abdi, Barkhad Abdirahman",
+        description: "The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years.",
+        image: "assets/images/all/39.jpg"
+        recommend: [**,**,**,**]
+      },
+      "39": {
+        name: "The Spectacular Now",
+        year: "2013",
+        datePublished: "13 September 2013",
+        country: "USA",
+        length: 95,
+        category: "Comedy, Drama, Romance",
+        director: "James Ponsoldt",
+        actors: "Miles Teller, Shailene Woodley, Kyle Chandler",
+        description: "A hard-partying high school senior's philosophy on life changes when he meets the not-so-typical "nice girl."",
+        image: "assets/images/all/40.jpg"
+        recommend: [**,**,**,**]
+      },
+      "40": {
+        name: "The Great Gatsby",
+        year: "2013",
+        datePublished: "16 May 2013",
+        country: "Australia, USA",
+        length: 143,
+        category: "Drama, Romance",
+        director: "Baz Luhrmann",
+        actors: "Leonardo DiCaprio, Carey Mulligan, Joel Edgerton",
+        description: "A Midwestern war veteran finds himself drawn to the past and lifestyle of his millionaire neighbor.",
+        image: "assets/images/all/41.jpg"
+        recommend: [**,**,**,**]
+      },
+      "41": {
+        name: "Chicago",
+        year: "2002",
+        datePublished: "6 February 2003",
+        country: "USA, Germany",
+        length: 113,
+        category: "Comedy, Crime, Musical",
+        director: "Rob Marshall",
+        actors: "Ren\xc3\xa9e Zellweger, Catherine Zeta-Jones, Richard Gere",
+        description: "Murderesses Velma Kelly and Roxie Hart find themselves on death row together and fight for the fame that will keep them from the gallows in 1920s Chicago.",
+        image: "assets/images/all/42.jpg"
+        recommend: [**,**,**,**]
+      },
+      "42": {
+        name: "Prisoners",
+        year: "2013",
+        datePublished: "19 September 2013",
+        country: "USA",
+        length: 153,
+        category: "Crime, Drama, Mystery",
+        director: "Denis Villeneuve",
+        actors: "Hugh Jackman, Jake Gyllenhaal, Viola Davis",
+        description: "When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts. But just how far will this desperate father go to protect his family?",
+        image: "assets/images/all/43.jpg"
+        recommend: [**,**,**,**]
+      },
+      "43": {
+        name: "Fifty Shades of Grey",
+        year: "2015",
+        datePublished: "12 February 2015",
+        country: "USA",
+        length: 125,
+        category: "Drama, Romance",
+        director: "Sam Taylor-Johnson",
+        actors: "Dakota Johnson, Jamie Dornan, Jennifer Ehle",
+        description: "Literature student Anastasia Steele's life changes forever when she meets handsome, yet tormented, billionaire Christian Grey.",
+        image: "assets/images/all/44.jpg"
+        recommend: [**,**,**,**]
+      },
+      "44": {
+        name: "Eternal Sunshine of the Spotless Mind",
+        year: "2004",
+        datePublished: "22 July 2004",
+        country: "USA",
+        length: 108,
+        category: "Drama, Romance, Sci-Fi",
+        director: "Michel Gondry",
+        actors: "Jim Carrey, Kate Winslet, Tom Wilkinson",
+        description: "When their relationship turns sour, a couple undergoes a procedure to have each other erased from their memories. But it is only through the process of loss that they discover what they had to begin with.",
+        image: "assets/images/all/45.jpg"
+        recommend: [**,**,**,**]
+      },
+      "45": {
+        name: "Requiem for a Dream",
+        year: "2000",
+        datePublished: "10 May 2001",
+        country: "USA",
+        length: 102,
+        category: "Drama",
+        director: "Darren Aronofsky",
+        actors: "Ellen Burstyn, Jared Leto, Jennifer Connelly",
+        description: "The drug-induced utopias of four Coney Island people are shattered when their addictions become stronger.",
+        image: "assets/images/all/46.jpg"
+        recommend: [**,**,**,**]
       }
     };
 
@@ -371,16 +644,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMjIwNTYzMzE1M15BMl5BanBnXkFtZTcwOTE5Mzg3OA@@._V1_SX214_AL_.jpg"
       },
       "3": {
-        name: "Inception",
-        year: "2010",
-        datePublished: "16 July 2010",
+        name: "Birdman: Or (The Unexpected Virtue of Ignorance)",
+        year: "2014",
+        datePublished: "29 January 2015",
         country: "USA",
-        length: 148,
-        category: "Action, Mystery, Sci-Fi",
-        director: "Christopher Nolan",
-        actors: "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
-        description: "A thief who steals corporate secrets through use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-        image: "assets/images/rec/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX214_AL_.jpg"
+        length: 119,
+        category: "Comedy, Drama",
+        director: "Alejandro Gonzlez Irritu",
+        actors: "Michael Keaton, Zach Galifianakis, Edward Norton",
+        description: "A washed-up actor, who once played an iconic superhero, battles his ego and attempts to recover his family, his career and himself in the days leading up to the opening of his Broadway play.",
+        image: "assets/images/rec/Birdman: Or (The Unexpected Virtue of Ignorance).jpg"
       },
       "4": {
         name: "Life of Pi",
@@ -431,16 +704,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/anBnXkFtZTgwMjEyMjE0MDE@._V1_SX214_AL_.jpg"
       },
       "8": {
-        name: "Silver Linings Playbook",
-        year: "2012",
-        datePublished: "25 December 2012",
+        name: "Whiplash",
+        year: "2014",
+        datePublished: "16 October 2014",
         country: "USA",
-        length: 122,
-        category: "Comedy, Drama, Romance",
-        director: "David O. Russell",
-        actors: "Bradley Cooper, Jennifer Lawrence, Robert De Niro",
-        description: "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
-        image: "assets/images/rec/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_SX214_AL_.jpg"
+        length: 107,
+        category: "Drama, Music",
+        director: "Damien Chazelle",
+        actors: "Miles Teller, J.K. Simmons, Melissa Benoist",
+        description: "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+        image: "assets/images/rec/Whiplash.jpg"
       },
       "9": {
         name: "The Curious Case of Benjamin Button",
@@ -515,16 +788,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX214_AL_.jpg"
       },
       "15": {
-        name: "The Lion King",
-        year: "1994",
-        datePublished: "24 June 1994",
-        country: "USA",
-        length: 89,
-        category: "Animation, Adventure, Drama",
-        director: "Roger Allers, Rob Minkoff",
-        actors: "Matthew Broderick, Jeremy Irons, James Earl Jones",
-        description: "Tricked into thinking that he caused the death of his father, a lion cub flees and abandons his destiny as the future king.",
-        image: "assets/images/rec/MV5BMjEyMzgwNTUzMl5BMl5BanBnXkFtZTcwNTMxMzM3Ng@@._V1_SY317_CR15,0,214,317_AL_.jpg"
+        name: "The Theory of Everything",
+        year: "2014",
+        datePublished: "25 December 2014",
+        country: "UK",
+        length: 123,
+        category: "Biography, Drama, Romance",
+        director: "James Marsh",
+        actors: "Eddie Redmayne, Felicity Jones, Tom Prior",
+        description: "A look at the relationship between the famous physicist ",
+        image: "assets/images/rec/The Theory of Everything.jpg"
       },
       "16": {
         name: "Monsters, Inc.",
@@ -539,40 +812,40 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX214_AL_.jpg"
       },
       "17": {
-        name: "Finding Nemo",
-        year: "2003",
-        datePublished: "30 May 2003",
+        name: "Zodiac",
+        year: "2007",
+        datePublished: "17 May 2007",
         country: "USA",
-        length: 100,
-        category: "Animation, Adventure, Comedy",
-        director: "Andrew Stanton, Lee Unkrich",
-        actors: "Albert Brooks, Ellen DeGeneres, Alexander Gould",
-        description: "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
-        image: "assets/images/rec/MV5BMTY1MTg1NDAxOV5BMl5BanBnXkFtZTcwMjg1MDI5Nw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        length: 157,
+        category: "Crime, Drama, Mystery",
+        director: "David Fincher",
+        actors: "Jake Gyllenhaal, Robert Downey Jr., Mark Ruffalo",
+        description: "A San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac killer.",
+        image: "assets/images/rec/Zodiac.jpg"
       },
       "18": {
-        name: "Django Unchained",
-        year: "2012",
-        datePublished: "25 December 2012",
-        country: "USA",
-        length: 165,
-        category: "Western",
-        director: "Quentin Tarantino",
-        actors: "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",
-        description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
-        image: "assets/images/rec/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_SX214_AL_.jpg"
-      },
-      "19": {
-        name: "Forrest Gump",
+        name: "The Shawshank Redemption",
         year: "1994",
-        datePublished: "6 July 1994",
+        datePublished: "14 October 1994",
         country: "USA",
         length: 142,
-        category: "Drama, Romance",
-        director: "Robert Zemeckis",
-        actors: "Tom Hanks, Robin Wright, Gary Sinise",
-        description: "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
-        image: "assets/images/rec/MV5BMTQwMTA5MzI1MF5BMl5BanBnXkFtZTcwMzY5Mzg3OA@@._V1_SX214_AL_.jpg"
+        category: "Crime, Drama",
+        director: "Frank Darabont",
+        actors: "Tim Robbins, Morgan Freeman, Bob Gunton",
+        description: "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        image: "assets/images/rec/The Shawshank Redemption.jpg"
+      },
+      "19": {
+        name: "Goodfellas",
+        year: "1990",
+        datePublished: "21 September 1990",
+        country: "USA",
+        length: 146,
+        category: "Biography, Crime, Drama",
+        director: "Martin Scorsese",
+        actors: "Robert De Niro, Ray Liotta, Joe Pesci",
+        description: "Henry Hill and his friends work their way up through the mob hierarchy.",
+        image: "assets/images/rec/Goodfellas.jpg"
       },
       "20": {
         name: "The Dark Knight Rises",
@@ -635,16 +908,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMjAwODUxMjA0M15BMl5BanBnXkFtZTcwNjIyMzY3Mg@@._V1_SX214_AL_.jpg"
       },
       "25": {
-        name: "Toy Story 3",
-        year: "2010",
-        datePublished: "18 June 2010",
+        name: "Schindler's List",
+        year: "1993",
+        datePublished: "3 March 1994",
         country: "USA",
-        length: 103,
-        category: "Animation, Adventure, Comedy ",
-        director: "Lee Unkrich",
-        actors: "Tom Hanks, Tim Allen, Joan Cusack",
-        description: "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
-        image: "assets/images/rec/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SY317_CR5,0,214,317_AL_.jpg"
+        length: 195,
+        category: "Biography, Drama, History",
+        director: "Steven Spielberg",
+        actors: "Liam Neeson, Ralph Fiennes, Ben Kingsley",
+        description: "In Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+        image: "assets/images/rec/Schindler's List.jpg"
       },
       "26": {
         name: "Oblivion",
@@ -695,16 +968,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMTU4NzMyNDk1OV5BMl5BanBnXkFtZTcwOTEwMzU1MQ@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "30": {
-        name: "Titanic",
-        year: "1997",
-        datePublished: "9 January 1998",
-        country: "USA",
-        length: 194,
-        category: "Drama,Romance",
-        director: "James Cameron",
-        actors: "Leonardo DiCaprio, Kate Winslet, Billy Zane",
-        description: "A seventeen-year-old aristocrat falls in love with a kind, but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
-        image: "assets/images/rec/MV5BMjExNzM0NDM0N15BMl5BanBnXkFtZTcwMzkxOTUwNw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        name: "Fargo",
+        year: "1996",
+        datePublished: "5 April 1996",
+        country: "USA, UK",
+        length: 98,
+        category: "Crime, Drama, Thriller",
+        director: "Keitel, Tim Roth, Michael Madsen",
+        actors: "William H. Macy, Frances McDormand, Steve Buscemi",
+        description: "Jerry Lundegaard's inept crime falls apart due to his and his henchmen's bungling and the persistent police work of the quite pregnant Marge Gunderson.",
+        image: "assets/images/rec/Fargo.jpg"
       },
       "31": {
         name: "The Hunger Games",
@@ -743,40 +1016,40 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX214_AL_.jpg"
       },
       "34": {
-        name: "Pulp Fiction",
-        year: "1994",
-        datePublished: "",
+        name: "No Country for Old Men",
+        year: "2007",
+        datePublished: "24 January 2008",
         country: "USA",
-        length: 154,
-        category: "Crime, Drama",
-        director: "Quentin Tarantino",
-        actors: "John Travolta, Uma Thurman, Samuel L. Jackson",
-        description: "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-        image: "assets/images/rec/MV5BMjE0ODk2NjczOV5BMl5BanBnXkFtZTYwNDQ0NDg4._V1_SY317_CR4,0,214,317_AL_.jpg"
+        length: 122,
+        category: "Crime, Drama, Thriller",
+        director: "el Day-Lewis, Paul Dano, Ciarn Hinds",
+        actors: "Tommy Lee Jones, Javier Bardem, Josh Brolin",
+        description: "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+        image: "assets/images/rec/No Country for Old Men.jpg"
       },
       "35": {
-        name: "The Matrix",
-        year: "1999",
-        datePublished: "24 June 1999",
-        country: "USA, Australia",
-        length: 136,
-        category: "Action, Sci-Fi",
-        director: "Andy Wachowski",
-        actors: " Keanu Reeves, Laurence Fishburne, Carrie-Anne ",
-        description: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-        image: "assets/images/rec/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1_SX214_AL_.jpg"
+        name: "Reservoir Dogs",
+        year: "1992",
+        datePublished: "2 September 1992",
+        country: "USA",
+        length: 99,
+        category: "Crime, Drama",
+        director: "Quentin Tarantino",
+        actors: "Harvey Keitel, Tim Roth, Michael Madsen",
+        description: "After a simple jewelery heist goes terribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+        image: "assets/images/rec/Reservoir Dogs.jpg"
       },
       "36": {
-        name: "Despicable Me 2",
-        year: "2013",
-        datePublished: "4 July 2013",
-        country: "USA",
-        length: 98,
-        category: "Animation, Comedy, Family",
-        director: "Pierre Coffin, Chris Renaud",
-        actors: " Steve Carell, Kristen Wiig, Benjamin Bratt",
-        description: "When Gru, the world's most super-bad turned super-dad has been recruited by a team of officials to stop lethal muscle and a host of Gru's own, He has to fight back with new gadgetry, cars, and more minion madness.",
-        image: "assets/images/rec/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        name: "Trainspotting",
+        year: "1996",
+        datePublished: "23 February 1996",
+        country: "UK",
+        length: 94,
+        category: "Drama",
+        director: "Danny Boyle",
+        actors: "Ewan McGregor, Ewen Bremner, Jonny Lee Miller",
+        description: "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+        image: "assets/images/rec/Trainspotting.jpg"
       },
       "37": {
         name: "Brave",
@@ -803,16 +1076,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_SX214_AL_.jpg"
       },
       "39": {
-        name: "Braveheart",
-        year: "1995",
-        datePublished: "24 May 1995",
-        country: "USA",
-        length: 177,
-        category: "Action, Biography, Drama",
-        director: "Mel Gibson",
-        actors: "Mel Gibson, Sophie Marceau, Patrick McGoohan",
-        description: "When his secret bride is executed for assaulting an English soldier who tried to rape her, William Wallace begins a revolt and leads Scottish warriors against the cruel English tyrant who rules Scotland with an iron fist.",
-        image: "assets/images/rec/MV5BNjA4ODYxMDU3Nl5BMl5BanBnXkFtZTcwMzkzMTk3OA@@._V1_SX214_AL_.jpg"
+        name: "Gangs of New York",
+        year: "2002",
+        datePublished: "9 January 2003",
+        country: "USA, Italy",
+        length: 167,
+        category: "Crime, Drama, History",
+        director: "Martin Scorsese",
+        actors: "Leonardo DiCaprio, Cameron Diaz, Daniel Day-Lewis",
+        description: "In 1863, Amsterdam Vallon returns to the Five Points area of New York City seeking revenge against Bill the Butcher, his father's killer.",
+        image: "assets/images/rec/Gangs of New York.jpg"
       },
       "40": {
         name: "The Green Mile",
@@ -827,16 +1100,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "41": {
-        name: "Gladiator",
-        year: "2000",
-        datePublished: "18 May 2000",
-        country: "USA",
-        length: 155,
-        category: "Action, Drama",
-        director: "Ridley Scott",
-        actors: "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
-        description: "When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.",
-        image: "assets/images/rec/MV5BMTgwMzQzNTQ1Ml5BMl5BanBnXkFtZTgwMDY2NTYxMTE@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        name: "Catch Me If You Can",
+        year: "2002",
+        datePublished: "6 February 2003",
+        country: "USA, Canada",
+        length: 141,
+        category: "Biography, Crime, Drama",
+        director: "Steven Spielberg",
+        actors: "Leonardo DiCaprio, Tom Hanks, Christopher Walken",
+        description: "A true story about Frank Abagnale Jr., who, before his 19th birthday, successfully conned millions of dollars' worth of checks as a Pan Am pilot, doctor, and legal prosecutor.",
+        image: "assets/images/rec/Catch Me If You Can.jpg"
       },
       "42": {
         name: "Saving Private Ryan",
@@ -875,16 +1148,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMTU2NTA5NzI0N15BMl5BanBnXkFtZTcwMjUxMjYxMg@@._V1_SY317_CR0,0,214,317_AL_.jpg"
       },
       "45": {
-        name: "Avatar",
-        year: "2009",
-        datePublished: "17 December 2009",
-        country: "USA",
-        length: 162,
-        category: "Action, Adventure, Fantasy",
-        director: "James Cameron",
-        actors: "Sam Worthington, Zoe Saldana",
-        description: "A Paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home",
-        image: "assets/images/rec/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        name: "Blood Diamond",
+        year: "2006",
+        datePublished: "25 January 2007",
+        country: "Germany, USA",
+        length: 143,
+        category: "Adventure, Drama, Thriller",
+        director: "Edward Zwick",
+        actors: "Leonardo DiCaprio, Djimon Hounsou, Jennifer Connelly",
+        description: "A fisherman, a smuggler, and a syndicate of businessmen match wits over the possession of a priceless diamond.",
+        image: "assets/images/rec/Blood Diamond.jpg"
       },
       "46": {
         name: "Se7en",
@@ -899,16 +1172,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMTQwNTU3MTE4NF5BMl5BanBnXkFtZTcwOTgxNDM2Mg@@._V1_SX214_AL_.jpg"
       },
       "47": {
-        name: "The Dark Knight",
-        year: "2008",
-        datePublished: "24 July 2008",
-        country: "USA, UK",
-        length: 152,
-        category: "Action, Crime, Drama",
-        director: "Christopher Nolan",
-        actors: "Christian Bale, Heath Ledger, Aaron Eckhart",
-        description: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
-        image: "assets/images/rec/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY317_CR0,0,214,317_AL_.jpg"
+        name: "The Man in the Iron Mask",
+        year: "1998",
+        datePublished: "21 March 1998",
+        country: "USA, France",
+        length: 132,
+        category: "Action, Adventure",
+        director: "Randall Wallace",
+        actors: "Leonardo DiCaprio, Jeremy Irons, John Malkovich",
+        description: "The cruel King Louis XIV of France has a secret twin brother who he keeps imprisoned. Can the twin be substituted for the real king?",
+        image: "assets/images/rec/The Man in the Iron Mask.jpg"
       },
       "48": {
         name: "American Hustle",
@@ -923,16 +1196,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BNjkxMTc0MDc4N15BMl5BanBnXkFtZTgwODUyNTI1MDE@._V1_SX214_AL_.jpg"
       },
       "49": {
-        name: "Black Swan",
-        year: "2010",
-        datePublished: "17 December",
-        country: "USA",
-        length: 108,
-        category: "Drama, Mystery, Thriller",
-        director: "Darren Aronofsky",
-        actors: "Natalie Portman, Mila Kunis, Vincent Cassel",
-        description: 'A ballet dancer wins the lead in "Swan Lake" and is perfect for the role of the delicate White Swan - Princess Odette - but slowly loses her mind as she becomes more and more like Odile, the Black Swan.',
-        image: "assets/images/rec/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX214_AL_.jpg"
+        name: "Get Rich or Die Tryin'",
+        year: "2005",
+        datePublished: "9 November 2005",
+        country: "USA, Canada",
+        length: 117,
+        category: "Biography, Crime, Drama",
+        director: "Jim Sheridan",
+        actors: "50 Cent, Joy Bryant, Adewale Akinnuoye-Agbaje",
+        description: "A tale of an inner city drug dealer who turns away from crime to pursue his passion, rap music.",
+        image: "assets/images/rec/Get Rich or Die Tryin.jpg"
       },
       "50": {
         name: "The Perks of Being a Wallflower",
@@ -959,16 +1232,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMjE4MjA1NTAyMV5BMl5BanBnXkFtZTcwNzM1NDQyMQ@@._V1_SX214_AL_.jpg"
       },
       "52": {
-        name: "The Twilight Saga: Breaking Dawn - Part 1",
-        year: "2011",
-        datePublished: "17 November 2011",
+        name: "Notorious",
+        year: "2009",
+        datePublished: "16 January 2009",
         country: "USA",
-        length: 117,
-        category: "Adventure, Drama, Fantasy",
-        director: "Bill Condon",
-        actors: "Kristen Stewart, Robert Pattinson, Taylor Lautner",
-        description: "The Quileutes close in on expecting parents Edward and Bella, whose unborn child poses a threat to the Wolf Pack and the towns people of Forks.",
-        image: "assets/images/rec/MV5BODgxNDE0OTAzOF5BMl5BanBnXkFtZTcwNzcwODE2Ng@@._V1_SX214_AL_.jpg"
+        length: 122,
+        category: "Biography, Drama, Music",
+        director: "George Tillman Jr.",
+        actors: "Jamal Woolard, Anthony Mackie, Derek Luke",
+        description: "The life and death story of Notorious B.I.G. (a.k.a. Christopher Wallace), who came straight out of Brooklyn to take the world of rap music by storm.",
+        image: "assets/images/rec/Notorious.jpg"
       },
       "53": {
         name: "The Twilight Saga: Eclipse",
@@ -1055,16 +1328,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_SY317_CR5,0,214,317_AL_.jpg"
       },
       "60": {
-        name: "Frozen",
-        year: "2013",
-        datePublished: "28 November 2013",
-        country: "USA",
-        length: 102,
-        category: "Animation, Adventure, Comedy",
-        director: "Chris Buck, Jennifer Lee",
-        actors: "Kristen Bell, Idina Menzel, Jonathan Groff",
-        description: "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
-        image: "assets/images/rec/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX214_AL_.jpg"
+        name: "Hooligans",
+        year: "2005",
+        datePublished: "2 February 2006",
+        country: "USA, UK",
+        length: 109,
+        category: "Crime, Drama, Sport",
+        director: "Lexi Alexander",
+        actors: "Elijah Wood, Charlie Hunnam, Claire Forlani",
+        description: "A wrongfully expelled Harvard undergrad moves to London, where he is introduced to the violent underworld of football hooliganism.",
+        image: "assets/images/rec/Hooligans.jpg"
       },
       "61": {
         name: "The Truman Show",
@@ -1077,6 +1350,642 @@ angular.module('recuserstudyApp')
         actors: "Jim Carrey, Ed Harris, Laura Linney",
         description: "An insurance salesman/adjuster discovers his entire life is actually a T.V. show.",
         image: "assets/images/rec/MV5BMTM4NjY2MTEzM15BMl5BanBnXkFtZTcwMTk2Njk3OA@@._V1_SX214_AL_.jpg"
+      },
+      "62": {
+        name: "Hustle &amp; Flow",
+        year: "2005",
+        datePublished: "22 July 2005",
+        country: "USA",
+        length: 116,
+        category: "Crime, Drama, Music",
+        director: "Craig Brewer",
+        actors: "Terrence Howard, Ludacris, Anthony Anderson",
+        description: "With help from his friends, a Memphis pimp in a mid-life crisis attempts to become a successful hip-hop emcee.",
+        image: "assets/images/rec/Hustle &amp; Flow.jpg"
+      },
+      "63": {
+        name: "Shutter Island",
+        year: "2010",
+        datePublished: "25 February 2010",
+        country: "USA",
+        length: 138,
+        category: "Mystery, Thriller",
+        director: "Martin Scorsese",
+        actors: "Leonardo DiCaprio, Emily Mortimer, Mark Ruffalo",
+        description: "A U.S Marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.",
+        image: "assets/images/rec/Shutter Island.jpg"
+      },
+      "64": {
+        name: "The King's Speech",
+        year: "2010",
+        datePublished: "27 January 2011",
+        country: "UK, USA",
+        length: 118,
+        category: "Biography, Drama, History",
+        director: "Tom Hooper",
+        actors: "Colin Firth, Geoffrey Rush, Helena Bonham Carter",
+        description: "The story of King George VI of the United Kingdom of Great Britain and Northern Ireland, his impromptu ascension to the throne and the speech therapist who helped the unsure monarch become worthy of it.",
+        image: "assets/images/rec/The King's Speech.jpg"
+      },
+      "65": {
+        name: "Cars",
+        year: "2006",
+        datePublished: "22 June 2006",
+        country: "USA",
+        length: 117,
+        category: "Animation, Adventure, Comedy",
+        director: "Samuel L. Jackson, Holly Hunter",
+        actors: "Owen Wilson, Bonnie Hunt, Paul Newman",
+        description: "A hot-shot race-car named Lightning McQueen gets waylaid in Radiator Springs, where he finds the true meaning of friendship and family.",
+        image: "assets/images/rec/Cars.jpg"
+      },
+      "66": {
+        name: "Ratatouille",
+        year: "2007",
+        datePublished: "6 July 2007",
+        country: "USA",
+        length: 111,
+        category: "Animation, Comedy, Family",
+        director: ", \nSamuel L. Jackson, \nHolly Hunter",
+        actors: "Brad Garrett, Lou Romano, Patton Oswalt",
+        description: "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
+        image: "assets/images/rec/Ratatouille.jpg"
+      },
+      "67": {
+        name: "Taken 3",
+        year: "2014",
+        datePublished: "8 January 2015",
+        country: "France",
+        length: 109,
+        category: "Action, Thriller",
+        director: "Olivier Megaton",
+        actors: "Liam Neeson, Forest Whitaker, Maggie Grace",
+        description: "Ex-government operative Bryan Mills is accused of a ruthless murder he never committed or witnessed. As he is tracked and pursued, Mills brings out his particular set of skills to find the true killer and clear his name.",
+        image: "assets/images/rec/Taken 3.jpg"
+      },
+      "68": {
+        name: "Kingsman: The Secret Service",
+        year: "2014",
+        datePublished: "12 February 2015",
+        country: "UK",
+        length: 129,
+        category: "Action, Adventure, Comedy",
+        director: "Matthew Vaughn",
+        actors: "Colin Firth, Taron Egerton, Samuel L. Jackson",
+        description: "A spy organization recruits an unrefined, but promising street kid into the agency's ultra-competitive training program, just as a global threat emerges from a twisted tech genius.",
+        image: "assets/images/rec/Kingsman: The Secret Service.jpg"
+      },
+      "69": {
+        name: "The Little Mermaid",
+        year: "1989",
+        datePublished: "17 November 1989",
+        country: "USA",
+        length: 83,
+        category: "Animation, Family, Fantasy",
+        director: ", \nBill Shirley, \nEleanor Audley",
+        actors: "Jodi Benson, Samuel E. Wright, Rene Auberjonois",
+        description: "A mermaid princess makes a Faustian bargain with an unscrupulous sea-witch in order to meet a human prince on land.",
+        image: "assets/images/rec/The Little Mermaid.jpg"
+      },
+      "70": {
+        name: "The Incredibles",
+        year: "2004",
+        datePublished: "25 November 2004",
+        country: "USA",
+        length: 115,
+        category: "Animation, Action, Adventure",
+        director: "Brad Bird",
+        actors: "Craig T. Nelson, Samuel L. Jackson, Holly Hunter",
+        description: "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        image: "assets/images/rec/The Incredibles.jpg"
+      },
+      "71": {
+        name: "Spider-Man",
+        year: "2002",
+        datePublished: "16 May 2002",
+        country: "USA",
+        length: 121,
+        category: "Action, Adventure",
+        director: "Sam Raimi",
+        actors: "Tobey Maguire, Kirsten Dunst, Willem Dafoe",
+        description: "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
+        image: "assets/images/rec/Spider-Man.jpg"
+      },
+      "72": {
+        name: "Back to the Future",
+        year: "1985",
+        datePublished: "3 July 1985",
+        country: "USA",
+        length: 116,
+        category: "Adventure, Comedy, Romance",
+        director: "Robert Zemeckis",
+        actors: "Michael J. Fox, Christopher Lloyd, Lea Thompson",
+        description: "A young man is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his friend, Dr. Emmett Brown, and must make sure his high-school-age parents unite in order to save his own existence.",
+        image: "assets/images/rec/Back to the Future.jpg"
+      },
+      "73": {
+        name: "Citizen Kane",
+        year: "1941",
+        datePublished: "5 September 1941",
+        country: "USA",
+        length: 119,
+        category: "Drama, Mystery",
+        director: "Orson Welles",
+        actors: "Orson Welles, Joseph Cotten, Dorothy Comingore",
+        description: "Following the death of a publishing tycoon, news reporters scramble to discover the meaning of his final utterance.",
+        image: "assets/images/rec/Citizen Kane.jpg"
+      },
+      "74": {
+        name: "Rain Man",
+        year: "1988",
+        datePublished: "16 December 1988",
+        country: "USA",
+        length: 133,
+        category: "Drama",
+        director: "Barry Levinson",
+        actors: "Dustin Hoffman, Tom Cruise, Valeria Golino",
+        description: "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
+        image: "assets/images/rec/Rain Man.jpg"
+      },
+      "75": {
+        name: "Wreck-It Ralph",
+        year: "2012",
+        datePublished: "29 November 2012",
+        country: "USA",
+        length: 101,
+        category: "Animation, Adventure, Comedy",
+        director: "Rich Moore",
+        actors: "John C. Reilly, Jack McBrayer, Jane Lynch",
+        description: "A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.",
+        image: "assets/images/rec/Wreck-It Ralph.jpg"
+      },
+      "76": {
+        name: "Troy",
+        year: "2004",
+        datePublished: "19 May 2004",
+        country: "USA, Malta",
+        length: 163,
+        category: "Adventure",
+        director: "Wolfgang Petersen",
+        actors: "Brad Pitt, Eric Bana, Orlando Bloom",
+        description: "An adaptation of Homer's great epic, the film follows the assault on Troy by the united Greek forces and chronicles the fates of the men involved.",
+        image: "assets/images/rec/Troy.jpg"
+      },
+      "77": {
+        name: "The Departed",
+        year: "2006",
+        datePublished: "2 November 2006",
+        country: "USA, Hong Kong",
+        length: 151,
+        category: "Crime, Drama, Thriller",
+        director: "Martin Scorsese",
+        actors: "Leonardo DiCaprio, Matt Damon, Jack Nicholson",
+        description: "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+        image: "assets/images/rec/The Departed.jpg"
+      },
+      "78": {
+        name: "Troy",
+        year: "2004",
+        datePublished: "19 May 2004",
+        country: "USA, Malta",
+        length: 163,
+        category: "Adventure",
+        director: "Wolfgang Petersen",
+        actors: "Brad Pitt, Eric Bana, Orlando Bloom",
+        description: "An adaptation of Homer's great epic, the film follows the assault on Troy by the united Greek forces and chronicles the fates of the men involved.",
+        image: "assets/images/rec/Troy.jpg"
+      },
+      "79": {
+        name: "American History X",
+        year: "1998",
+        datePublished: "11 March 1999",
+        country: "USA",
+        length: 119,
+        category: "Crime, Drama",
+        director: "Tony Kaye",
+        actors: "Edward Norton, Edward Furlong, Beverly DAngelo",
+        description: "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.",
+        image: "assets/images/rec/American History X.jpg"
+      },
+      "80": {
+        name: "The Notebook",
+        year: "2004",
+        datePublished: "5 August 2004",
+        country: "USA",
+        length: 123,
+        category: "Drama, Romance",
+        director: "Nick Cassavetes",
+        actors: "Gena Rowlands, James Garner, Rachel McAdams",
+        description: "A poor and passionate young man falls in love with a rich young woman and gives her a sense of freedom. They soon are separated by their social differences.",
+        image: "assets/images/rec/The Notebook.jpg"
+      },
+      "81": {
+        name: "Beauty and the Beast",
+        year: "1991",
+        datePublished: "22 November 1991",
+        country: "USA",
+        length: 84,
+        category: "Animation, Family, Fantasy",
+        director: "Bill Shirley, Eleanor Audley",
+        actors: "Paige O\'Hara, Robby Benson, Jesse Corti",
+        description: "Belle, whose father is imprisoned by the Beast, offers herself instead, unaware her captor to be an enchanted prince.",
+        image: "assets/images/rec/Beauty and the Beast.jpg"
+      },
+      "82": {
+        name: "Aladdin",
+        year: "1992",
+        datePublished: "25 November 1992",
+        country: "USA",
+        length: 90,
+        category: "Animation, Adventure, Comedy",
+        director: "Bill Shirley, Eleanor Audley",
+        actors: "Scott Weinger, Robin Williams, Linda Larkin",
+        description: "When a street urchin vies for the love of a beautiful princess, he uses a genie's magic power to make himself off as a prince in order to marry her.",
+        image: "assets/images/rec/Aladdin.jpg"
+      },
+      "83": {
+        name: "American Strays",
+        year: "1996",
+        datePublished: "13 September 1996",
+        country: "USA",
+        length: 97,
+        category: "Action, Comedy",
+        director: "Michael Covert",
+        actors: "Scott Plank, Melora Walters, John Savage",
+        description: "The desert can be a lonely place for the people who live there or for those who are traveling through. It is also the teller of different stories including the story of a traveling salesman...                ",
+        image: "assets/images/rec/American Strays.jpg"
+      },
+      "84": {
+        name: "Things to Do in Denver When You're Dead",
+        year: "1995",
+        datePublished: "1 December 1995",
+        country: "USA",
+        length: 115,
+        category: "Crime, Drama",
+        director: "Gary Fleder",
+        actors: "Andy Garcia, Christopher Walken, Christopher Lloyd",
+        description: "Five different criminals face imminent death after botching a job quite badly.",
+        image: "assets/images/rec/Things to Do in Denver When You're Dead.jpg"
+      },
+      "85": {
+        name: "Sherlock Holmes: A Game of Shadows",
+        year: "2011",
+        datePublished: "22 December 2011",
+        country: "USA",
+        length: 129,
+        category: "Action, Adventure, Crime",
+        director: "Guy Ritchie",
+        actors: "Robert Downey Jr., Jude Law, Jared Harris",
+        description: "Sherlock Holmes and his sidekick Dr. Watson join forces to outwit and bring down their fiercest adversary, Professor Moriarty.",
+        image: "assets/images/rec/Sherlock Holmes: A Game of Shadows.jpg"
+      },
+      "86": {
+        name: "Man of Steel",
+        year: "2013",
+        datePublished: "20 June 2013",
+        country: "USA, Canada",
+        length: 143,
+        category: "Action, Adventure, Fantasy",
+        director: "Zack Snyder",
+        actors: "Henry Cavill, Amy Adams, Michael Shannon",
+        description: "Clark Kent, one of the last of an extinguished race disguised as an unremarkable human, is forced to reveal his identity when Earth is invaded by an army of survivors who threaten to bring the planet to the brink of destruction.",
+        image: "assets/images/rec/Man of Steel.jpg"
+      },
+      "87": {
+        name: "Dark City",
+        year: "1998",
+        datePublished: "27 February 1998",
+        country: "Australia, USA",
+        length: 100,
+        category: "Mystery, Sci-Fi",
+        director: "Alex Proyas",
+        actors: "Rufus Sewell, Kiefer Sutherland, Jennifer Connelly",
+        description: "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        image: "assets/images/rec/Dark City.jpg"
+      },
+      "88": {
+        name: "Vanilla Sky",
+        year: "2001",
+        datePublished: "24 January 2002",
+        country: "USA, Spain",
+        length: 136,
+        category: "Fantasy, Mystery, Romance",
+        director: "Cameron Crowe",
+        actors: "Tom Cruise, Penlope Cruz, Cameron Diaz",
+        description: "A self-indulgent and vain publishing magnate finds his privileged life upended after a vehicular accident with a resentful lover.",
+        image: "assets/images/rec/Vanilla Sky.jpg"
+      },
+      "89": {
+        name: "Shark Tale",
+        year: "2004",
+        datePublished: "29 September 2004",
+        country: "USA",
+        length: 90,
+        category: "Animation, Adventure, Comedy",
+        director: "Joan Cusack, Garry Marshall",
+        actors: "Will Smith, Robert De Niro, Rene Zellweger",
+        description: "When a son of a gangster shark boss is accidently killed while on the hunt, his would-be prey and his vegetarian brother both decide to use the incident to their own advantage.",
+        image: "assets/images/rec/Shark Tale.jpg"
+      },
+      "90": {
+        name: "Kung Fu Panda",
+        year: "2008",
+        datePublished: "1 July 2008",
+        country: "USA",
+        length: 92,
+        category: "Animation, Action, Adventure",
+        director: "Angelina Jolie, Jackie Chan",
+        actors: "Jack Black, Ian McShane, Angelina Jolie",
+        description: "In the Valley of Peace, Po the Panda finds himself chosen as the Dragon Warrior despite the fact that he is obese and a complete novice at martial arts.",
+        image: "assets/images/rec/Kung Fu Panda.jpg"
+      },
+      "91": {
+        name: "Enemy of the State",
+        year: "1998",
+        datePublished: "7 January 1999",
+        country: "USA",
+        length: 132,
+        category: "Action, Crime, Drama",
+        director: "Tony Scott",
+        actors: "Will Smith, Gene Hackman, Jon Voight",
+        description: "A lawyer becomes a target by a corrupt politician and his NSA goons when he accidentally receives key evidence to a serious politically motivated crime.",
+        image: "assets/images/rec/Enemy of the State.jpg"
+      },
+      "92": {
+        name: "The Pursuit of Happyness",
+        year: "2006",
+        datePublished: "18 January 2007",
+        country: "USA",
+        length: 117,
+        category: "Biography, Drama",
+        director: "Gabriele Muccino",
+        actors: "Will Smith, Thandie Newton, Jaden Smith",
+        description: "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional endeavor.",
+        image: "assets/images/rec/The Pursuit of Happyness.jpg"
+      },
+      "93": {
+        name: "Seven Pounds",
+        year: "2008",
+        datePublished: "5 February 2009",
+        country: "USA",
+        length: 123,
+        category: "Drama",
+        director: "Gabriele Muccino",
+        actors: "Will Smith, Rosario Dawson, Woody Harrelson",
+        description: "A man with a fateful secret embarks on an extraordinary journey of redemption by forever changing the lives of seven strangers.",
+        image: "assets/images/rec/Seven Pounds.jpg"
+      },
+      "94": {
+        name: "Bad Boys",
+        year: "1995",
+        datePublished: "7 April 1995",
+        country: "USA",
+        length: 118,
+        category: "Action, Comedy, Crime",
+        director: "Michael Bay",
+        actors: "Will Smith, Martin Lawrence, Lisa Boyle",
+        description: "Two hip detectives protect a murder witness while investigating a case of stolen heroin.",
+        image: "assets/images/rec/Bad Boys.jpg"
+      },
+      "95": {
+        name: "Lincoln",
+        year: "2012",
+        datePublished: "24 January 2013",
+        country: "USA, India",
+        length: 150,
+        category: "Biography, Drama, History",
+        director: "Steven Spielberg",
+        actors: "Daniel Day-Lewis, Sally Field, David Strathairn",
+        description: "As the Civil War continues to rage, America's president struggles with continuing carnage on the battlefield as he fights with many inside his own cabinet on the decision to emancipate the slaves.",
+        image: "assets/images/rec/Lincoln.jpg"
+      },
+      "96": {
+        name: "Unbroken",
+        year: "2014",
+        datePublished: "15 January 2015",
+        country: "USA",
+        length: 137,
+        category: "Biography, Drama, Sport",
+        director: "Angelina Jolie",
+        actors: "Jack O'Connell, Miyavi, Domhnall Gleeson",
+        description: "After a near-fatal plane crash in WWII, Olympian Louis Zamperini spends a harrowing 47 days in a raft with two fellow crewmen before he's caught by the Japanese navy and sent to a prisoner-of-war camp.",
+        image: "assets/images/rec/Unbroken.jpg"
+      },
+      "97": {
+        name: "The Grand Budapest Hotel",
+        year: "2014",
+        datePublished: "6 March 2014",
+        country: "USA, Germany",
+        length: 99,
+        category: "Adventure, Comedy, Drama",
+        director: "Wes Anderson",
+        actors: "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric",
+        description: "The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
+        image: "assets/images/rec/The Grand Budapest Hotel.jpg"
+      },
+      "98": {
+        name: "Selma",
+        year: "2014",
+        datePublished: "19 February 2015",
+        country: "UK, USA",
+        length: 128,
+        category: "Biography, Drama, History",
+        director: "Ava DuVernay",
+        actors: "David Oyelowo, Carmen Ejogo, Tim Roth",
+        description: "A chronicle of ",
+        image: "assets/images/rec/Selma.jpg"
+      },
+      "99": {
+        name: "The Devil Wears Prada",
+        year: "2006",
+        datePublished: "21 September 2006",
+        country: "USA, France",
+        length: 109,
+        category: "Comedy, Drama, Romance",
+        director: "David Frankel",
+        actors: "Anne Hathaway, Meryl Streep, Adrian Grenier",
+        description: "A smart but sensible new graduate lands a job as an assistant to Miranda Priestly, the demanding editor-in-chief of a high fashion magazine.",
+        image: "assets/images/rec/The Devil Wears Prada.jpg"
+      },
+      "100": {
+        name: "Bridget Jones: The Edge of Reason",
+        year: "2004",
+        datePublished: "18 November 2004",
+        country: "UK, France",
+        length: 108,
+        category: "Comedy, Drama, Romance",
+        director: "Beeban Kidron",
+        actors: "Rene Zellweger, Colin Firth, Hugh Grant",
+        description: "After finding love, Bridget Jones questions if she really has everything she's dreamed of having.",
+        image: "assets/images/rec/Bridget Jones: The Edge of Reason.jpg"
+      },
+      "101": {
+        name: "13 Going on 30",
+        year: "2004",
+        datePublished: "22 July 2004",
+        country: "USA",
+        length: 98,
+        category: "Comedy, Fantasy, Romance",
+        director: "Gary Winick",
+        actors: "Jennifer Garner, Mark Ruffalo, Judy Greer",
+        description: "A 13 year old girl plays a game on her 13th birthday and wakes up the next day as a 30 year old woman.",
+        image: "assets/images/rec/13 Going on 30.jpg"
+      },
+      "102": {
+        name: "Mamma Mia!",
+        year: "2008",
+        datePublished: "31 July 2008",
+        country: "USA, UK",
+        length: 108,
+        category: "Comedy, Musical, Romance",
+        director: "Phyllida Lloyd",
+        actors: "Meryl Streep, Pierce Brosnan, Amanda Seyfried",
+        description: "The story of a bride-to-be trying to find her real father told using hit songs by the popular '70s group ABBA.",
+        image: "assets/images/rec/Mamma Mia!.jpg"
+      },
+      "103": {
+        name: "No Strings Attached",
+        year: "2011",
+        datePublished: "3 March 2011",
+        country: "USA",
+        length: 108,
+        category: "Comedy, Romance",
+        director: "Ivan Reitman",
+        actors: "Natalie Portman, Ashton Kutcher, Kevin Kline",
+        description: "A guy and girl try to keep their relationship strictly physical, but it's not long before they learn that they want something more.",
+        image: "assets/images/rec/No Strings Attached.jpg"
+      },
+      "104": {
+        name: "Bride Wars",
+        year: "2009",
+        datePublished: "12 February 2009",
+        country: "USA",
+        length: 89,
+        category: "Comedy, Romance",
+        director: "Gary Winick",
+        actors: "Kate Hudson, Anne Hathaway, Candice Bergen",
+        description: "Two best friends become rivals when they schedule their respective weddings on the same day.",
+        image: "assets/images/rec/Bride Wars.jpg"
+      },
+      "105": {
+        name: "What Happens in Vegas",
+        year: "2008",
+        datePublished: "8 May 2008",
+        country: "USA",
+        length: 99,
+        category: "Comedy, Romance",
+        director: "Tom Vaughan",
+        actors: "Cameron Diaz, Ashton Kutcher, Rob Corddry",
+        description: "A man and a woman are compelled, for legal reasons, to live life as a couple for a limited period of time. At stake is a large amount of money.",
+        image: "assets/images/rec/What Happens in Vegas.jpg"
+      },
+      "106": {
+        name: "Friends with Benefits",
+        year: "2011",
+        datePublished: "8 September 2011",
+        country: "USA",
+        length: 109,
+        category: "Comedy, Romance",
+        director: "Will Gluck",
+        actors: "Mila Kunis, Justin Timberlake, Patricia Clarkson",
+        description: "While trying to avoid the clichxc3xa9s of Hollywood romantic comedies, Dylan Harper and Jamie Rellis soon discover however that adding the act of sex to their friendship does lead to complications.",
+        image: "assets/images/rec/Friends with Benefits.jpg"
+      },
+      "107": {
+        name: "Runner Runner",
+        year: "2013",
+        datePublished: "26 September 2013",
+        country: "USA",
+        length: 91,
+        category: "Crime, Thriller",
+        director: "Brad Furman",
+        actors: "Ben Affleck, Justin Timberlake, Gemma Arterton",
+        description: "When a poor college student who cracks an online poker game goes bust, he arranges a face-to-face with the man he thinks cheated him, a sly offshore entrepreneur.",
+        image: "assets/images/rec/Runner Runner.jpg"
+      },
+      "108": {
+        name: "The Counselor",
+        year: "2013",
+        datePublished: "14 November 2013",
+        country: "USA, UK",
+        length: 117,
+        category: "Crime, Drama, Thriller",
+        director: "Ridley Scott",
+        actors: "Michael Fassbender, Penlope Cruz, Cameron Diaz",
+        description: "A lawyer finds himself in over his head when he gets involved in drug trafficking.",
+        image: "assets/images/rec/The Counselor.jpg"
+      },
+      "109": {
+        name: "A Walk Among the Tombstones",
+        year: "2014",
+        datePublished: "18 September 2014",
+        country: "USA",
+        length: 114,
+        category: "Crime, Drama, Mystery",
+        director: "Scott Frank",
+        actors: "Liam Neeson, Dan Stevens, David Harbour",
+        description: "Private investigator Matthew Scudder is hired by a drug kingpin to find out who kidnapped and murdered his wife.",
+        image: "assets/images/rec/A Walk Among the Tombstones.jpg"
+      },
+      "110": {
+        name: "Boyhood",
+        year: "2014",
+        datePublished: "4 September 2014",
+        country: "USA",
+        length: 165,
+        category: "Drama",
+        director: "Richard Linklater",
+        actors: "Ellar Coltrane, Patricia Arquette, Ethan Hawke",
+        description: "The life of Mason, from early childhood to his arrival at college.",
+        image: "assets/images/rec/Boyhood.jpg"
+      },
+      "111": {
+        name: "The Book Thief",
+        year: "2013",
+        datePublished: "23 January 2014",
+        country: "USA, Germany",
+        length: 131,
+        category: "Drama, War",
+        director: "Brian Percival",
+        actors: "Sophie Nlisse, Geoffrey Rush, Emily Watson",
+        description: "While subjected to the horrors of World War II Germany, young Liesel finds solace by stealing books and sharing them with others. In the basement of her home, a Jewish refugee is being sheltered by her adoptive parents.",
+        image: "assets/images/rec/The Book Thief.jpg"
+      },
+      "112": {
+        name: "Philomena",
+        year: "2013",
+        datePublished: "20 March 2014",
+        country: "UK, USA",
+        length: 98,
+        category: "Biography, Drama",
+        director: "Stephen Frears",
+        actors: "Judi Dench, Steve Coogan, Sophie Kennedy Clark",
+        description: "A world-weary political journalist picks up the story of a woman's search for her son, who was taken away from her decades ago after she became pregnant and was forced to live in a convent.",
+        image: "assets/images/rec/Philomena.jpg"
+      },
+      "113": {
+        name: "August: Osage County",
+        year: "2013",
+        datePublished: "26 December 2013",
+        country: "USA",
+        length: 121,
+        category: "Drama",
+        director: "John Wells",
+        actors: "Meryl Streep, Dermot Mulroney, Julia Roberts",
+        description: "A look at the lives of the strong-willed women of the Weston family, whose paths have diverged until a family crisis brings them back to the Oklahoma house they grew up in, and to the dysfunctional woman who raised them.",
+        image: "assets/images/rec/August: Osage County.jpg"
+      },
+      "114": {
+        name: "Fury",
+        year: "2014",
+        datePublished: "30 October 2014",
+        country: "USA, China",
+        length: 134,
+        category: "Action, Drama, War",
+        director: "David Ayer",
+        actors: "Brad Pitt, Shia LaBeouf, Logan Lerman",
+        description: "April, 1945. As the Allies make their final push in the European Theatre, a battle-hardened Army sergeant named Wardaddy commands a Sherman tank and his five-man crew on a deadly mission behind enemy lines. Outnumbered, out-gunned, and with a rookie soldier thrust into their platoon, Wardaddy and his men face overwhelming odds in their heroic attempts to strike at the heart of Nazi Germany.",
+        image: "assets/images/rec/Fury.jpg"
       }
     };
 
