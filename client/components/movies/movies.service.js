@@ -1637,7 +1637,7 @@ angular.module('recuserstudyApp')
         director: "Guy Ritchie",
         actors: "Robert Downey Jr., Jude Law, Jared Harris",
         description: "Sherlock Holmes and his sidekick Dr. Watson join forces to outwit and bring down their fiercest adversary, Professor Moriarty.",
-        image: "assets/images/rec/Sherlock Holmes: A Game of Shadows.jpg"
+        image: "assets/images/rec/Sherlock Holmes.jpg"
       },
       "86": {
         name: "Man of Steel",
