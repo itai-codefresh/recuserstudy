@@ -653,7 +653,7 @@ angular.module('recuserstudyApp')
         director: "Alejandro Gonzlez Irritu",
         actors: "Michael Keaton, Zach Galifianakis, Edward Norton",
         description: "A washed-up actor, who once played an iconic superhero, battles his ego and attempts to recover his family, his career and himself in the days leading up to the opening of his Broadway play.",
-        image: "assets/images/rec/Birdman: Or (The Unexpected Virtue of Ignorance).jpg"
+        image: "assets/images/rec/Birdman.jpg"
       },
       "4": {
         name: "Life of Pi",
