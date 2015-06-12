@@ -341,7 +341,7 @@ angular.module('recuserstudyApp')
         director: "Dan Gilroy",
         actors: "Jake Gyllenhaal, Rene Russo, Bill Paxton",
         description: "When Lou Bloom, a driven man desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
-        image: "assets/images/all/26.jpg"
+        image: "assets/images/all/26.jpg",
         recommend: [3,8,15,17]
       },
       "26": {
@@ -354,7 +354,7 @@ angular.module('recuserstudyApp')
         director: "Francis Ford Coppola",
         actors: "Marlon Brando, Al Pacino, James Caan",
         description: "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-        image: "assets/images/all/27.jpg"
+        image: "assets/images/all/27.jpg",
         recommend: [18,19,25,173]
       },
       "27": {
@@ -366,8 +366,8 @@ angular.module('recuserstudyApp')
         category: "Comedy, Crime",
         director: "Keitel, Tim Roth, Michael Madsen",
         actors: "Jeff Bridges, John Goodman, Julianne Moore",
-        description: ""The Dude" Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
-        image: "assets/images/all/28.jpg"
+        description: 'The Dude" Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.',
+        image: "assets/images/all/28.jpg",
         recommend: [30,34,35,36]
       },
       "28": {
@@ -380,7 +380,7 @@ angular.module('recuserstudyApp')
         director: "Martin Scorsese",
         actors: "Leonardo DiCaprio, Cate Blanchett, Kate Beckinsale",
         description: "A biopic depicting the early years of legendary director and aviator ",
-        image: "assets/images/all/29.jpg"
+        image: "assets/images/all/29.jpg",
         recommend: [39,41,45,47]
       },
       "29": {
@@ -393,7 +393,7 @@ angular.module('recuserstudyApp')
         director: "Curtis Hanson",
         actors: "Eminem, Brittany Murphy, Kim Basinger",
         description: "A young rapper, struggling with every aspect of his life, wants to make the most of what could be his final opportunity but his problems around gives him doubts.",
-        image: "assets/images/all/30.jpg"
+        image: "assets/images/all/30.jpg",
         recommend: [49,52,60,62]
       },
       "30": {
@@ -405,8 +405,8 @@ angular.module('recuserstudyApp')
         category: "Comedy, Romance",
         director: "Andy Tennant",
         actors: "Will Smith, Eva Mendes, Kevin James",
-        description: "While helping his latest client woo the fine lady of his dreams, a professional "date doctor" finds that his game doesn't quite work on the gossip columnist with whom he's smitten.",
-        image: "assets/images/all/31.jpg"
+        description: 'While helping his latest client woo the fine lady of his dreams, a professional "date doctor" finds that his game doesn\'t quite work on the gossip columnist with whom he\'s smitten.',
+        image: "assets/images/all/31.jpg",
         recommend: [91,92,93,94]
       },
       "31": {
@@ -419,7 +419,7 @@ angular.module('recuserstudyApp')
         director: "Steve McQueen",
         actors: "Chiwetel Ejiofor, Michael Kenneth Williams, Michael Fassbender",
         description: "In the antebellum United States, ",
-        image: "assets/images/all/32.jpg"
+        image: "assets/images/all/32.jpg",
         recommend: [95,96,97,98]
       },
       "32": {
@@ -432,7 +432,7 @@ angular.module('recuserstudyApp')
         director: "Michael Patrick King",
         actors: "Sarah Jessica Parker, Kim Cattrall, Cynthia Nixon",
         description: "A New York writer on sex and love is finally getting married to her Mr. Big. But her three best girlfriends must console her after one of them inadvertently leads Mr. Big to jilt her.",
-        image: "assets/images/all/33.jpg"
+        image: "assets/images/all/33.jpg",
         recommend: [99,100,101,102]
       },
       "33": {
@@ -445,7 +445,7 @@ angular.module('recuserstudyApp')
         director: "Robert Luketic",
         actors: "Katherine Heigl, Gerard Butler, Bree Turner",
         description: "A romantically challenged morning show producer is reluctantly embroiled in a series of outrageous tests by her chauvinistic correspondent to prove his theories on relationships and help ...                ",
-        image: "assets/images/all/34.jpg"
+        image: "assets/images/all/34.jpg",
         recommend: [103,104,105,106]
       },
       "34": {
@@ -458,7 +458,7 @@ angular.module('recuserstudyApp')
         director: "David Fincher",
         actors: "Ben Affleck, Rosamund Pike, Neil Patrick Harris",
         description: "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
-        image: "assets/images/all/35.jpg"
+        image: "assets/images/all/35.jpg",
         recommend: [107,108,109,110]
       },
       "35": {
@@ -471,7 +471,7 @@ angular.module('recuserstudyApp')
         director: "Morten Tyldum",
         actors: "Benedict Cumberbatch, Keira Knightley, Matthew Goode",
         description: "During World War II, mathematician Alan Turing tries to crack the enigma code with help from fellow mathematicians.",
-        image: "assets/images/all/36.jpg"
+        image: "assets/images/all/36.jpg",
         recommend: [111,112,113,114]
       },
       "36": {
@@ -484,7 +484,7 @@ angular.module('recuserstudyApp')
         director: "Marc Webb",
         actors: "Zooey Deschanel, Joseph Gordon-Levitt, Geoffrey Arend",
         description: "An offbeat romantic comedy about a woman who doesn't believe true love exists, and the young man who falls for her.",
-        image: "assets/images/all/37.jpg"
+        image: "assets/images/all/37.jpg",
         recommend: [115,116,117,118]
       },
       "37": {
@@ -497,7 +497,7 @@ angular.module('recuserstudyApp')
         director: "en, Rose Byrne, Zac Efron",
         actors: "Channing Tatum, Jonah Hill, Ice Cube",
         description: "After making their way through high school (twice), big changes are in store for officers Schmidt and Jenko when they go deep undercover at a local college.",
-        image: "assets/images/all/38.jpg"
+        image: "assets/images/all/38.jpg",
         recommend: [119,120,121,122]
       },
       "38": {
@@ -510,7 +510,7 @@ angular.module('recuserstudyApp')
         director: "Paul Greengrass",
         actors: "Tom Hanks, Barkhad Abdi, Barkhad Abdirahman",
         description: "The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years.",
-        image: "assets/images/all/39.jpg"
+        image: "assets/images/all/39.jpg",
         recommend: [123,124,125,126]
       },
       "39": {
@@ -522,8 +522,8 @@ angular.module('recuserstudyApp')
         category: "Comedy, Drama, Romance",
         director: "James Ponsoldt",
         actors: "Miles Teller, Shailene Woodley, Kyle Chandler",
-        description: "A hard-partying high school senior's philosophy on life changes when he meets the not-so-typical "nice girl."",
-        image: "assets/images/all/40.jpg"
+        description: 'A hard-partying high school senior\'s philosophy on life changes when he meets the not-so-typical "nice girl."',
+        image: "assets/images/all/40.jpg",
         recommend: [127,128,129,130]
       },
       "40": {
@@ -536,7 +536,7 @@ angular.module('recuserstudyApp')
         director: "Baz Luhrmann",
         actors: "Leonardo DiCaprio, Carey Mulligan, Joel Edgerton",
         description: "A Midwestern war veteran finds himself drawn to the past and lifestyle of his millionaire neighbor.",
-        image: "assets/images/all/41.jpg"
+        image: "assets/images/all/41.jpg",
         recommend: [131,132,133,134]
       },
       "41": {
@@ -549,7 +549,7 @@ angular.module('recuserstudyApp')
         director: "Rob Marshall",
         actors: "Rene Zellweger, Catherine Zeta-Jones, Richard Gere",
         description: "Murderesses Velma Kelly and Roxie Hart find themselves on death row together and fight for the fame that will keep them from the gallows in 1920s Chicago.",
-        image: "assets/images/all/42.jpg"
+        image: "assets/images/all/42.jpg",
         recommend: [135,136,137,138]
       },
       "42": {
@@ -562,7 +562,7 @@ angular.module('recuserstudyApp')
         director: "Denis Villeneuve",
         actors: "Hugh Jackman, Jake Gyllenhaal, Viola Davis",
         description: "When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts. But just how far will this desperate father go to protect his family?",
-        image: "assets/images/all/43.jpg"
+        image: "assets/images/all/43.jpg",
         recommend: [139,140,141,142]
       },
       "43": {
@@ -575,7 +575,7 @@ angular.module('recuserstudyApp')
         director: "Sam Taylor-Johnson",
         actors: "Dakota Johnson, Jamie Dornan, Jennifer Ehle",
         description: "Literature student Anastasia Steele's life changes forever when she meets handsome, yet tormented, billionaire Christian Grey.",
-        image: "assets/images/all/44.jpg"
+        image: "assets/images/all/44.jpg",
         recommend: [143,144,145,146]
       },
       "44": {
@@ -588,7 +588,7 @@ angular.module('recuserstudyApp')
         director: "Michel Gondry",
         actors: "Jim Carrey, Kate Winslet, Tom Wilkinson",
         description: "When their relationship turns sour, a couple undergoes a procedure to have each other erased from their memories. But it is only through the process of loss that they discover what they had to begin with.",
-        image: "assets/images/all/45.jpg"
+        image: "assets/images/all/45.jpg",
         recommend: [147,148,149,150]
       },
       "45": {
@@ -601,7 +601,7 @@ angular.module('recuserstudyApp')
         director: "Darren Aronofsky",
         actors: "Ellen Burstyn, Jared Leto, Jennifer Connelly",
         description: "The drug-induced utopias of four Coney Island people are shattered when their addictions become stronger.",
-        image: "assets/images/all/46.jpg"
+        image: "assets/images/all/46.jpg",
         recommend: [151,152,153,154]
       }
     };
@@ -2140,7 +2140,7 @@ angular.module('recuserstudyApp')
         category: "Comedy, Romance",
         director: "Tom Gormican",
         actors: "Zac Efron, Michael B. Jordan, Miles Teller",
-        description: "Three best friends find themselves where we've all been - at that confusing moment in every dating relationship when you have to decide "So...where is this going?"",
+        description: 'Three best friends find themselves where we\'ve all been - at that confusing moment in every dating relationship when you have to decide "So...where is this going?"',
         image: "assets/images/rec/That Awkward Moment.jpg"
       },
       "128": {
@@ -2344,7 +2344,7 @@ angular.module('recuserstudyApp')
         category: "Action, Mystery, Sci-Fi",
         director: "Wes Ball",
         actors: "Dylan O'Brien, Kaya Scodelario, Will Poulter",
-        description: "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow "runners" for a shot at escape.",
+        description: 'Thomas is deposited in a community of boys after his memory is erased, soon learning they\'re all trapped in a maze that will require him to join forces with fellow "runners" for a shot at escape.',
         image: "assets/images/rec/The Maze Runner.jpg"
       },
       "145": {
@@ -2380,7 +2380,7 @@ angular.module('recuserstudyApp')
         category: "Action, Drama, Thriller",
         director: "James McTeigue",
         actors: "Hugo Weaving, Natalie Portman, Rupert Graves",
-        description: "In a future British tyranny, a shadowy freedom fighter, known only by the alias of "V", plots to overthrow it with the help of a young woman.",
+        description: 'In a future British tyranny, a shadowy freedom fighter, known only by the alias of "V", plots to overthrow it with the help of a young woman.',
         image: "assets/images/rec/V for Vendetta.jpg"
       },
       "148": {
@@ -2551,7 +2551,7 @@ angular.module('recuserstudyApp')
         description: "A growing nation of genetically evolved apes led by Caesar is threatened by a band of human survivors of the devastating virus unleashed a decade earlier.",
         image: "assets/images/rec/Dawn of the Planet of the Apes.jpg"
       },
-      "161": {
+      "176": {
         name: "Big Hero 6",
         year: "2014",
         datePublished: "4 December 2014",
