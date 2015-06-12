@@ -17,7 +17,7 @@ angular.module('recuserstudyApp')
         actors: "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",
         description: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
         image: "assets/images/all/1.jpg",
-        recommend: [0,1,2,63]
+        recommend: [0,1,155,63]
       },
       "1": {
         name: "Gravity",
@@ -30,7 +30,7 @@ angular.module('recuserstudyApp')
         actors: "Sandra Bullock, George Clooney, Ed Harris",
         description: "A medical engineer and an astronaut work together to survive after a catastrophe destroys their shuttle and leaves them adrift in orbit.",
         image: "assets/images/all/2.jpg",
-        recommend: [4,5,6,7]
+        recommend: [156,157,6,7]
       },
       "2": {
         name: "Black Swan",
@@ -43,7 +43,7 @@ angular.module('recuserstudyApp')
         actors: "Natalie Portman, Mila Kunis, Vincent Cassel",
         description: 'A ballet dancer wins the lead in "Swan Lake" and is perfect for the role of the delicate White Swan - Princess Odette - but slowly loses her mind as she becomes more and more like Odile, the Black Swan.',
         image: "assets/images/all/3.jpg",
-        recommend: [4,5,64,9]
+        recommend: [4,5,64,158]
       },
       "3": {
         name: "Mad Max: Fury Road",
@@ -69,7 +69,7 @@ angular.module('recuserstudyApp')
         actors: "Tom Hanks, Tim Allen, Joan Cusack",
         description: "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.",
         image: "assets/images/all/5.jpg",
-        recommend: [14,65,16,66]
+        recommend: [159,65,160,66]
       },
       "5": {
         name: "Inception",
@@ -82,7 +82,7 @@ angular.module('recuserstudyApp')
         actors: "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
         description: "A thief who steals corporate secrets through use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
         image: "assets/images/all/6.jpg",
-        recommend: [2,67,67,20]
+        recommend: [67,67,20,161]
       },
       "6": {
         name: "True Grit",
@@ -103,12 +103,12 @@ angular.module('recuserstudyApp')
         datePublished: "26 March 2010",
         country: "USA",
         length: 98,
-        category: "Animation, Adventure, Family ",
+        category: "Animation, Adventure, Family",
         director: "Dean DeBlois, Chris Sanders",
         actors: "Jay Baruchel, Gerard Butler, Christopher Mintz-Plasse",
         description: "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
         image: "assets/images/all/8.jpg",
-        recommend: [14,16,69,70]
+        recommend: [14,161,69,70]
       },
       "8": {
         name: "Looper",
@@ -116,7 +116,7 @@ angular.module('recuserstudyApp')
         datePublished: "28 September 2012",
         country: "USA",
         length: 119,
-        category: "Action, Crime, Sci-Fi ",
+        category: "Action, Crime, Sci-Fi",
         director: "Rian Johnson",
         actors: "Joseph Gordon-Levitt, Bruce Willis, Emily Blunt",
         description: "In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to 'close the loop' by sending back Joe's future self for assassination.",
@@ -134,7 +134,7 @@ angular.module('recuserstudyApp')
         actors: "Sam Worthington, Zoe Saldana",
         description: "A Paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home",
         image: "assets/images/all/10.jpg",
-        recommend: [71,31,32,33]
+        recommend: [71,162,32,33]
       },
       "10": {
         name: "Forrest Gump",
@@ -147,7 +147,7 @@ angular.module('recuserstudyApp')
         actors: "Tom Hanks, Robin Wright, Gary Sinise",
         description: "Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
         image: "assets/images/all/11.jpg",
-        recommend: [2,72,73,74]
+        recommend: [163,72,73,74]
       },
       "11": {
         name: "Frozen",
@@ -160,7 +160,7 @@ angular.module('recuserstudyApp')
         actors: "Kristen Bell, Idina Menzel, Jonathan Groff",
         description: "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
         image: "assets/images/all/12.jpg",
-        recommend: [75,37,38,16]
+        recommend: [75,37,38,164]
       },
       "12": {
         name: "Gladiator",
@@ -212,7 +212,7 @@ angular.module('recuserstudyApp')
         actors: "Matthew Broderick, Jeremy Irons, James Earl Jones",
         description: "Tricked into thinking that he caused the death of his father, a lion cub flees and abandons his destiny as the future king.",
         image: "assets/images/all/16.jpg",
-        recommend: [81,82,16,14]
+        recommend: [81,82,165,166]
       },
       "16": {
         name: "Pulp Fiction",
@@ -238,7 +238,7 @@ angular.module('recuserstudyApp')
         actors: "Bradley Cooper, Jennifer Lawrence, Robert De Niro",
         description: "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
         image: "assets/images/all/18.jpg",
-        recommend: [48,4,49,50]
+        recommend: [48,167,49,50]
       },
       "18": {
         name: "The Dark Knight",
@@ -251,7 +251,7 @@ angular.module('recuserstudyApp')
         actors: "Christian Bale, Heath Ledger, Aaron Eckhart",
         description: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
         image: "assets/images/all/19.jpg",
-        recommend: [20,86,85,51]
+        recommend: [168,86,85,51]
       },
       "19": {
         name: "The Matrix",
@@ -264,7 +264,7 @@ angular.module('recuserstudyApp')
         actors: " Keanu Reeves, Laurence Fishburne, Carrie-Anne ",
         description: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
         image: "assets/images/all/20.jpg",
-        recommend: [51,87,2,88]
+        recommend: [51,87,169,88]
       },
       "20": {
         name: "The Twilight Saga: Breaking Dawn - Part 2",
@@ -303,7 +303,7 @@ angular.module('recuserstudyApp')
         actors: " Steve Carell, Kristen Wiig, Benjamin Bratt",
         description: "When Gru, the world's most super-bad turned super-dad has been recruited by a team of officials to stop lethal muscle and a host of Gru's own, He has to fight back with new gadgetry, cars, and more minion madness.",
         image: "assets/images/all/23.jpg",
-        recommend: [16,38,60,37]
+        recommend: [16,38,60,170]
       },
       "23": {
         name: "Finding Nemo",
@@ -316,7 +316,7 @@ angular.module('recuserstudyApp')
         actors: "Albert Brooks, Ellen DeGeneres, Alexander Gould",
         description: "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
         image: "assets/images/all/24.jpg",
-        recommend: [16,89,14,90]
+        recommend: [171,89,172,90]
       },
       "24": {
         name: "The Sixth Sense",
@@ -355,7 +355,7 @@ angular.module('recuserstudyApp')
         actors: "Marlon Brando, Al Pacino, James Caan",
         description: "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
         image: "assets/images/all/27.jpg"
-        recommend: [18,19,25,20]
+        recommend: [18,19,25,173]
       },
       "27": {
         name: "The Big Lebowski",
@@ -2466,6 +2466,246 @@ angular.module('recuserstudyApp')
         actors: "Johnny Depp, Penlope Cruz, Franka Potente",
         description: "The story of George Jung, the man who established the American cocaine market in the 1970s.",
         image: "assets/images/rec/Blow.jpg"
+      },
+      "155": {
+        name: "The Girl with the Dragon Tattoo",
+        year: "2011",
+        datePublished: "29 December 2011",
+        country: "USA, Sweden",
+        length: 158,
+        category: "Crime, Drama, Mystery",
+        director: "David Fincher",
+        actors: "Daniel Craig, Rooney Mara, Christopher Plummer",
+        description: "Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for forty years by Lisbeth Salander, a young computer hacker.",
+        image: "assets/images/rec/The Girl with the Dragon Tattoo.jpg"
+      },
+      "156": {
+        name: "2001: A Space Odyssey",
+        year: "1968",
+        datePublished: "15 May 1968",
+        country: "USA, UK",
+        length: 160,
+        category: "Mystery, Sci-Fi",
+        director: "Stanley Kubrick",
+        actors: "Keir Dullea, Gary Lockwood, William Sylvester",
+        description: "Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.",
+        image: "assets/images/rec/A Space Odyssey.jpg"
+      },
+      "157": {
+        name: "Cloud Atlas",
+        year: "2012",
+        datePublished: "27 December 2012",
+        country: "Germany, USA",
+        length: 172,
+        category: "Drama, Sci-Fi",
+        director: "Tom Tykwer, Andy Wachowski",
+        actors: "Tom Hanks, Halle Berry, Hugh Grant",
+        description: "An exploration of how the actions of individual lives impact one another in the past, present and future, as one soul is shaped from a killer into a hero, and an act of kindness ripples across centuries to inspire a revolution.",
+        image: "assets/images/rec/Cloud Atlas.jpg"
+      },
+      "158": {
+        name: "The Reader",
+        year: "2008",
+        datePublished: "12 February 2009",
+        country: "USA, Germany",
+        length: 124,
+        category: "Drama, Romance",
+        director: "Stephen Daldry",
+        actors: "Kate Winslet, Ralph Fiennes, Bruno Ganz",
+        description: "Post-WWII Germany: Nearly a decade after his affair with an older woman came to a mysterious end, law student Michael Berg re-encounters his former lover as she defends herself in a war-crime trial.",
+        image: "assets/images/rec/The Reader.jpg"
+      },
+      "159": {
+        name: "WALL-E",
+        year: "2008",
+        datePublished: "11 July 2008",
+        country: "USA",
+        length: 98,
+        category: "Animation, Adventure, Family",
+        director: "Andrew Stanton",
+        actors: "Ben Burtt, Elissa Knight, Jeff Garlin",
+        description: "In the distant future, a small waste collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+        image: "assets/images/rec/WALLE.jpg"
+      },
+      "160": {
+        name: "Shrek",
+        year: "2001",
+        datePublished: "19 July 2001",
+        country: "USA",
+        length: 90,
+        category: "Animation, Adventure, Comedy",
+        director: "Andrew Adamson, Vicky Jenson",
+        actors: "Mike Myers, Eddie Murphy, Cameron Diaz",
+        description: "After his swamp is filled with magical creatures, an ogre agrees to rescue a princess for a villainous lord in order to get his land back.",
+        image: "assets/images/rec/Shrek.jpg"
+      },
+      "161": {
+        name: "Dawn of the Planet of the Apes",
+        year: "2014",
+        datePublished: "10 July 2014",
+        country: "USA",
+        length: 130,
+        category: "Action, Drama, Sci-Fi",
+        director: "Matt Reeves",
+        actors: "Gary Oldman, Keri Russell, Andy Serkis",
+        description: "A growing nation of genetically evolved apes led by Caesar is threatened by a band of human survivors of the devastating virus unleashed a decade earlier.",
+        image: "assets/images/rec/Dawn of the Planet of the Apes.jpg"
+      },
+      "161": {
+        name: "Big Hero 6",
+        year: "2014",
+        datePublished: "4 December 2014",
+        country: "USA",
+        length: 102,
+        category: "Animation, Action, Adventure",
+        director: "Don Hall, Chris Williams",
+        actors: "Ryan Potter, Scott Adsit, Jamie Chung",
+        description: "The special bond that develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.",
+        image: "assets/images/rec/Big Hero 6.jpg"
+      },
+      "162": {
+        name: "Iron Man",
+        year: "2008",
+        datePublished: "1 May 2008",
+        country: "USA",
+        length: 126,
+        category: "Action, Adventure, Sci-Fi",
+        director: "Jon Favreau",
+        actors: "Robert Downey Jr., Gwyneth Paltrow, Terrence Howard",
+        description: "After being held captive in an Afghan cave, an industrialist creates a unique weaponized suit of armor to fight evil.",
+        image: "assets/images/rec/Iron Man.jpg"
+      },
+      "163": {
+        name: "Apollo 13",
+        year: "1995",
+        datePublished: "6 October 1995",
+        country: "USA",
+        length: 140,
+        category: "Adventure, Drama, History",
+        director: "Ron Howard",
+        actors: "Tom Hanks, Bill Paxton, Kevin Bacon",
+        description: "NASA must devise a strategy to return Apollo 13 to Earth safely after the spacecraft undergoes massive internal damage putting the lives of the three astronauts on board in jeopardy.",
+        image: "assets/images/rec/Apollo 13.jpg"
+      },
+      "164": {
+        name: "Turbo",
+        year: "2013",
+        datePublished: "19 September 2013",
+        country: "USA",
+        length: 96,
+        category: "Animation, Adventure, Comedy",
+        director: "David Soren",
+        actors: "Ryan Reynolds, Paul Giamatti, Maya Rudolph",
+        description: "A freak accident might just help an everyday garden snail achieve his biggest dream: winning the Indy 500.",
+        image: "assets/images/rec/Turbo.jpg"
+      },
+      "165": {
+        name: "Hercules",
+        year: "1997",
+        datePublished: "27 June 1997",
+        country: "USA",
+        length: 93,
+        category: "Animation, Adventure, Comedy",
+        director: "Ron Clements, John Musker",
+        actors: "Tate Donovan, Susan Egan, James Woods",
+        description: "The son of the Greek Gods Zeus and Hera is stripped of his immortality as an infant and must become a true hero in order to reclaim it.",
+        image: "assets/images/rec/Hercules.jpg"
+      },
+      "166": {
+        name: "Pocahontas",
+        year: "1995",
+        datePublished: "23 June 1995",
+        country: "USA",
+        length: 81,
+        category: "Animation, Adventure, Drama",
+        director: "Mike Gabriel, Eric Goldberg",
+        actors: "Mel Gibson, Linda Hunt, Christian Bale",
+        description: "An English soldier and the daughter of an Algonquin chief share a romance when English colonists invade seventeenth-century Virginia.",
+        image: "assets/images/rec/Pocahontas.jpg"
+      },
+      "167": {
+        name: "Now Is Good",
+        year: "2012",
+        datePublished: "19 September 2012",
+        country: "UK",
+        length: 103,
+        category: "Drama, Romance",
+        director: "Ol Parker",
+        actors: "Dakota Fanning, Josef Altin, Jeremy Irvine",
+        description: "A girl dying of leukemia compiles a list of things she'd like to do before passing away. Topping the list is her desire to lose her virginity.",
+        image: "assets/images/rec/Now Is Good.jpg"
+      },
+      "168": {
+        name: "Watchmen",
+        year: "2009",
+        datePublished: "5 March 2009",
+        country: "USA",
+        length: 162,
+        category: "Action, Mystery, Sci-Fi",
+        director: "Zack Snyder",
+        actors: "Jackie Earle Haley, Patrick Wilson, Carla Gugino",
+        description: "In an alternate 1985 where former superheroes exist, the murder of a colleague sends active vigilante Rorschach into his own sprawling investigation, uncovering something that could completely change the course of history as we know it.",
+        image: "assets/images/rec/Watchmen.jpg"
+      },
+      "169": {
+        name: "The Terminator",
+        year: "1984",
+        datePublished: "26 October 1984",
+        country: "UK, USA",
+        length: 107,
+        category: "Action, Sci-Fi",
+        director: "James Cameron",
+        actors: "Arnold Schwarzenegger, Linda Hamilton, Michael Biehn",
+        description: "A human-looking indestructible cyborg is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.",
+        image: "assets/images/rec/The Terminator.jpg"
+      },
+      "170": {
+        name: "The Croods",
+        year: "2013",
+        datePublished: "21 March 2013",
+        country: "USA",
+        length: 98,
+        category: "Animation, Adventure, Comedy",
+        director: "Kirk De Micco",
+        actors: "Nicolas Cage, Ryan Reynolds, Emma Stone",
+        description: "After their cave is destroyed, a caveman family must trek through an unfamiliar fantastical world with the help of an inventive boy.",
+        image: "assets/images/rec/The Croods.jpg"
+      },
+      "171": {
+        name: "Ice Age",
+        year: "2002",
+        datePublished: "21 March 2002",
+        country: "USA",
+        length: 81,
+        category: "Animation, Adventure, Comedy",
+        director: "Chris Wedge, Carlos Saldanha",
+        actors: "Denis Leary, John Leguizamo, Ray Romano",
+        description: "Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.",
+        image: "assets/images/rec/Ice Age.jpg"
+      },
+      "172": {
+        name: "Happy Feet",
+        year: "2006",
+        datePublished: "14 December 2006",
+        country: "Australia, USA",
+        length: 108,
+        category: "Animation, Comedy, Family",
+        director: "George Miller, Warren Coleman",
+        actors: "Elijah Wood, Brittany Murphy, Hugh Jackman",
+        description: "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
+        image: "assets/images/rec/Happy Feet.jpg"
+      },
+      "173": {
+        name: "Scarface",
+        year: "1983",
+        datePublished: "9 December 1983",
+        country: "USA",
+        length: 170,
+        category: "Crime, Drama",
+        director: "Brian De Palma",
+        actors: "Al Pacino, Michelle Pfeiffer, Steven Bauer",
+        description: "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel while succumbing to greed.",
+        image: "assets/images/rec/Scarface.jpg"
       }
     };
 
