@@ -173,7 +173,7 @@ angular.module('recuserstudyApp')
         actors: "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
         description: "When a Roman general is betrayed and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.",
         image: "assets/images/all/13.jpg",
-        recommend: [76,40,77,78]
+        recommend: [76,174,77,78]
       },
       "13": {
         name: "Braveheart",
@@ -186,7 +186,7 @@ angular.module('recuserstudyApp')
         actors: "Mel Gibson, Sophie Marceau, Patrick McGoohan",
         description: "When his secret bride is executed for assaulting an English soldier who tried to rape her, William Wallace begins a revolt and leads Scottish warriors against the cruel English tyrant who rules Scotland with an iron fist.",
         image: "assets/images/all/14.jpg",
-        recommend: [42,43,40,79]
+        recommend: [42,43,175,79]
       },
       "14": {
         name: "Titanic",
@@ -2706,6 +2706,30 @@ angular.module('recuserstudyApp')
         actors: "Al Pacino, Michelle Pfeiffer, Steven Bauer",
         description: "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel while succumbing to greed.",
         image: "assets/images/rec/Scarface.jpg"
+      },
+      "174": {
+        name: "Enemy at the Gates",
+        year: "2001",
+        datePublished: "5 April 2001",
+        country: "USA, France",
+        length: 131,
+        category: "Drama, History, Romance",
+        director: "Jean-Jacques Annaud",
+        actors: "Jude Law, Ed Harris, Joseph Fiennes",
+        description: "A Russian sniper and a German sniper play a game of cat-and-mouse during the Battle of Stalingrad.",
+        image: "assets/images/rec/Enemy at the Gates.jpg"
+      },
+      "175": {
+        name: "The Patriot",
+        year: "2000",
+        datePublished: "13 July 2000",
+        country: "USA, Germany",
+        length: 165,
+        category: "Action, Drama, History",
+        director: "Roland Emmerich",
+        actors: "Mel Gibson, Heath Ledger, Joely Richardson",
+        description: "Peaceful farmer Benjamin Martin is driven to lead the Colonial Militia during the American Revolution when a sadistic British officer murders his son.",
+        image: "assets/images/rec/The Patriot.jpg"
       }
     };
 
