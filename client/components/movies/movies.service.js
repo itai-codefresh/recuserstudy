@@ -303,7 +303,7 @@ angular.module('recuserstudyApp')
         actors: " Steve Carell, Kristen Wiig, Benjamin Bratt",
         description: "When Gru, the world's most super-bad turned super-dad has been recruited by a team of officials to stop lethal muscle and a host of Gru's own, He has to fight back with new gadgetry, cars, and more minion madness.",
         image: "assets/images/all/23.jpg",
-        recommend: [16,38,60,170]
+        recommend: [16,38,176,170]
       },
       "23": {
         name: "Finding Nemo",
@@ -740,28 +740,28 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/MV5BMTU4MDU3NDQ5Ml5BMl5BanBnXkFtZTgwOTU5MDUxNTE@._V1_SY317_CR1,0,214,317_AL_.jpg"
       },
       "11": {
-        name: "Mad Max Beyond Thunderdome",
-        year: "1985",
-        datePublished: "10 July 1985",
-        country: "USA",
-        length: 107,
-        category: "Action, Adventure, Sci-Fi ",
-        director: "George Miller, George Ogilvie",
-        actors: "Mel Gibson, Tina Turner, Bruce Spence",
-        description: "A former Australian policeman is rescued by a tribe of children when he is banished from a desert town and sent into the desert to die by the desert town's evil queen.",
-        image: "assets/images/rec/MV5BMTk0MDQ5NTYxNV5BMl5BanBnXkFtZTcwNTA0ODYyMQ@@._V1_SY317_CR11,0,214,317_AL_.jpg"
+        name: "San Andreas",
+        year: "2015",
+        datePublished: "28 May 2015",
+        country: "USA, Australia",
+        length: 114,
+        category: "Action, Drama, Thriller",
+        director: "Brad Peyton",
+        actors: "Dwayne Johnson, Carla Gugino, Alexandra Daddario",
+        description: "In the aftermath of a massive earthquake in California, a rescue-chopper pilot makes a dangerous journey across the state in order to rescue his daughter.",
+        image: "assets/images/rec/San Andreas.jpg"
       },
       "12": {
-        name: "Mad Max",
-        year: "1979",
-        datePublished: "12 April 1979",
-        country: "Australia",
-        length: 88,
-        category: "Action, Adventure, Sci-Fi ",
-        director: "George Miller",
-        actors: "Mel Gibson, Joanne Samuel, Hugh Keays-Byrne",
-        description: "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.",
-        image: "assets/images/rec/MV5BMTM4Mjg5ODEzMV5BMl5BanBnXkFtZTcwMDc3NDk0NA@@._V1_SX214_AL_.jpg"
+        name: "Escape from New York",
+        year: "1981",
+        datePublished: "10 July 1981",
+        country: "UK, USA",
+        length: 99,
+        category: "Action, Sci-Fi",
+        director: "John Carpenter",
+        actors: "Kurt Russell, Lee Van Cleef, Ernest Borgnine",
+        description: "In 1997, when the US President crashes into Manhattan, now a giant maximum security prison, a convicted bank robber is sent in for a rescue.",
+        image: "assets/images/rec/Escape from New York.jpg"
       },
       "13": {
         name: "Tomorrowland",
@@ -2730,6 +2730,18 @@ angular.module('recuserstudyApp')
         actors: "Mel Gibson, Heath Ledger, Joely Richardson",
         description: "Peaceful farmer Benjamin Martin is driven to lead the Colonial Militia during the American Revolution when a sadistic British officer murders his son.",
         image: "assets/images/rec/The Patriot.jpg"
+      },
+      "176": {
+        name: "Home",
+        year: "2015",
+        datePublished: "26 March 2015",
+        country: "USA",
+        length: 94,
+        category: "Animation, Adventure, Comedy",
+        director: "Tim Johnson",
+        actors: "Jim Parsons, Rihanna, Steve Martin",
+        description: "Oh, an alien on the run from his own people, lands on Earth and makes friends with the adventurous Tip, who is on a quest of her own.",
+        image: "assets/images/rec/Home.jpg"
       }
     };
 
