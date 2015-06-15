@@ -698,7 +698,7 @@ angular.module('recuserstudyApp')
         country: "USA",
         length: 117,
         category: "Biography, Drama",
-        director: "Jean-Marc VallÃ©e",
+        director: "Jean-Marc Valle",
         actors: "Matthew McConaughey, Jennifer Garner, Jared Leto",
         description: "In 1985 Dallas, electrician and hustler Ron Woodroof works around the system to help AIDS patients get the medication they need after he is himself diagnosed with the disease.",
         image: "assets/images/rec/MV5BMTYwMTA4MzgyNF5BMl5BanBnXkFtZTgwMjEyMjE0MDE@._V1_SX214_AL_.jpg"
@@ -1433,7 +1433,7 @@ angular.module('recuserstudyApp')
         director: "Matthew Vaughn",
         actors: "Colin Firth, Taron Egerton, Samuel L. Jackson",
         description: "A spy organization recruits an unrefined, but promising street kid into the agency's ultra-competitive training program, just as a global threat emerges from a twisted tech genius.",
-        image: "assets/images/rec/Kingsman: The Secret Service.jpg"
+        image: "assets/images/rec/Kingsman.jpg"
       },
       "69": {
         name: "The Little Mermaid",
@@ -1520,16 +1520,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/Wreck-It Ralph.jpg"
       },
       "76": {
-        name: "Troy",
-        year: "2004",
-        datePublished: "19 May 2004",
-        country: "USA, Malta",
-        length: 163,
-        category: "Adventure",
-        director: "Wolfgang Petersen",
-        actors: "Brad Pitt, Eric Bana, Orlando Bloom",
-        description: "An adaptation of Homer's great epic, the film follows the assault on Troy by the united Greek forces and chronicles the fates of the men involved.",
-        image: "assets/images/rec/Troy.jpg"
+        name: "Master and Commander: The Far Side of the World",
+        year: "2003",
+        datePublished: "27 November 2003",
+        country: "USA",
+        length: 138,
+        category: "Action, Adventure, Drama",
+        director: "Peter Weir",
+        actors: "Russell Crowe, Paul Bettany, Billy Boyd",
+        description: "During the Napoleonic Wars, a brash British captain pushes his ship and crew to their limits in pursuit of a formidable French war vessel around South America.",
+        image: "assets/images/rec/Master and Commander.jpg"
       },
       "77": {
         name: "The Departed",
@@ -1792,7 +1792,7 @@ angular.module('recuserstudyApp')
         category: "Biography, Drama, History",
         director: "Ava DuVernay",
         actors: "David Oyelowo, Carmen Ejogo, Tim Roth",
-        description: "A chronicle of ",
+        description: "A chronicle of Martin Luther King's campaign to secure equal voting rights via an epic march from Selma to Montgomery, Alabama in 1965.",
         image: "assets/images/rec/Selma.jpg"
       },
       "99": {
@@ -1817,7 +1817,7 @@ angular.module('recuserstudyApp')
         director: "Beeban Kidron",
         actors: "Rene Zellweger, Colin Firth, Hugh Grant",
         description: "After finding love, Bridget Jones questions if she really has everything she's dreamed of having.",
-        image: "assets/images/rec/Bridget Jones: The Edge of Reason.jpg"
+        image: "assets/images/rec/Bridget Jones.jpg"
       },
       "101": {
         name: "13 Going on 30",
@@ -1973,7 +1973,7 @@ angular.module('recuserstudyApp')
         director: "John Wells",
         actors: "Meryl Streep, Dermot Mulroney, Julia Roberts",
         description: "A look at the lives of the strong-willed women of the Weston family, whose paths have diverged until a family crisis brings them back to the Oklahoma house they grew up in, and to the dysfunctional woman who raised them.",
-        image: "assets/images/rec/August: Osage County.jpg"
+        image: "assets/images/rec/August.jpg"
       },
       "114": {
         name: "Fury",
@@ -2564,16 +2564,16 @@ angular.module('recuserstudyApp')
         image: "assets/images/rec/Big Hero 6.jpg"
       },
       "162": {
-        name: "Iron Man",
-        year: "2008",
-        datePublished: "1 May 2008",
+        name: "John Carter",
+        year: "2012",
+        datePublished: "8 March 2012",
         country: "USA",
-        length: 126,
-        category: "Action, Adventure, Sci-Fi",
-        director: "Jon Favreau",
-        actors: "Robert Downey Jr., Gwyneth Paltrow, Terrence Howard",
-        description: "After being held captive in an Afghan cave, an industrialist creates a unique weaponized suit of armor to fight evil.",
-        image: "assets/images/rec/Iron Man.jpg"
+        length: 132,
+        category: "Action, Adventure, Fantasy",
+        director: "Andrew Stanton",
+        actors: "Taylor Kitsch, Lynn Collins, Willem Dafoe",
+        description: "Transported to Barsoom, a Civil War vet discovers a barren planet seemingly inhabited by 12-foot tall barbarians. Finding himself prisoner of these creatures, he escapes, only to encounter Woola and a princess in desperate need of a savior.",
+        image: "assets/images/rec/John Carter.jpg"
       },
       "163": {
         name: "Apollo 13",
