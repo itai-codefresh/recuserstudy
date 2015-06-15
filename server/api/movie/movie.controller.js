@@ -54,7 +54,7 @@ exports.getUsers = function (request, response){
     else {
       var users = [];
       res.map(function(record){
-        users.push({bug: record.bgu, date: record.date});
+        users.push({bgu: record.bgu, date: record.date});
       });
       return response.json(200, users);
     }
