@@ -54,14 +54,27 @@ exports.getUsers = function (request, response){
     else {
       var users = [];
       res.map(function(record){
-        users.push(record.bgu);
+        users.push({bug: record.bgu, date: record.date});
       });
       return response.json(200, users);
     }
   });
 };
 
+
+exports.deleteAll = function(request, response){
+  Movies.delete(function(err){
+    if (err){
+      return response.send(400, "An error occurred while trying to delete data from system. We are sorry.");
+    }
+    else {
+      return response.json(200, "success");
+    }
+  })
+};
+
 exports.saveUserExperiment = function (request, response) {
+  request.body.date = new Date();
   Movie.create(request.body, function (err) {
     if (err) {
       return response.send(400, "An error occurred while trying to save data the system. We are sorry.");
