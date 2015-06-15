@@ -46,6 +46,21 @@ exports.withImages = function (request, response) {
   })
 };
 
+exports.getUsers = function (request, response){
+  Movie.find(function(err, res){
+    if (err){
+      return response.send(400, "An error occurred while trying to bring data from system. We are sorry.");
+    }
+    else {
+      var users = [];
+      res.map(function(record){
+        users.push(record.bgu);
+      });
+      return response.json(200, users);
+    }
+  });
+};
+
 exports.saveUserExperiment = function (request, response) {
   Movie.create(request.body, function (err) {
     if (err) {

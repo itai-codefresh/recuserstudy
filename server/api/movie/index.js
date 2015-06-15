@@ -7,6 +7,7 @@ var router = express.Router();
 
 router.get('/withImages', controller.withImages);
 router.get('/getStats', controller.getStats);
+router.get('/getUsers', controller.getUsers);
 router.post('/saveUserExperiment', controller.saveUserExperiment);
 
 module.exports = router;
