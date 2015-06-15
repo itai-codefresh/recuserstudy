@@ -96,7 +96,7 @@ angular.module('recuserstudyApp')
                 buttons: [{
                   classes: 'btn-primary',
                   text: continueText,
-                  click: function(e, age, gender, bgu) {
+                  click: function(e, age, gender, user, bgu) {
                     Movies.age = age;
                     Movies.gender = gender;
                     Movies.bgu = bgu;
