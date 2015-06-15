@@ -82,7 +82,7 @@ angular.module('recuserstudyApp')
         actors: "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
         description: "A thief who steals corporate secrets through use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
         image: "assets/images/all/6.jpg",
-        recommend: [67,67,20,161]
+        recommend: [67,68,20,161]
       },
       "6": {
         name: "True Grit",
@@ -701,7 +701,7 @@ angular.module('recuserstudyApp')
         director: "Jean-Marc VallÃ©e",
         actors: "Matthew McConaughey, Jennifer Garner, Jared Leto",
         description: "In 1985 Dallas, electrician and hustler Ron Woodroof works around the system to help AIDS patients get the medication they need after he is himself diagnosed with the disease.",
-        image: "assets/images/anBnXkFtZTgwMjEyMjE0MDE@._V1_SX214_AL_.jpg"
+        image: "assets/images/rec/MV5BMTYwMTA4MzgyNF5BMl5BanBnXkFtZTgwMjEyMjE0MDE@._V1_SX214_AL_.jpg"
       },
       "8": {
         name: "Whiplash",
