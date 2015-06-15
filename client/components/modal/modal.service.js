@@ -92,12 +92,14 @@ angular.module('recuserstudyApp')
                 html: html,
                 age: "age",
                 gender: "gender",
+                user: "bgu user",
                 buttons: [{
                   classes: 'btn-primary',
                   text: continueText,
-                  click: function(e, age, gender) {
+                  click: function(e, age, gender, user) {
                     Movies.age = age;
                     Movies.gender = gender;
+                    Movies.user = user;
                     deleteModal.dismiss(e);
                     del.apply(event, args);
                   }
