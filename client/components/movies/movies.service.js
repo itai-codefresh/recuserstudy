@@ -1394,7 +1394,7 @@ angular.module('recuserstudyApp')
         country: "USA",
         length: 117,
         category: "Animation, Adventure, Comedy",
-        director: "Samuel L. Jackson, Holly Hunter",
+        director: " John Lasseter, Joe Ranft",
         actors: "Owen Wilson, Bonnie Hunt, Paul Newman",
         description: "A hot-shot race-car named Lightning McQueen gets waylaid in Radiator Springs, where he finds the true meaning of friendship and family.",
         image: "assets/images/rec/Cars.jpg"
@@ -1406,7 +1406,7 @@ angular.module('recuserstudyApp')
         country: "USA",
         length: 111,
         category: "Animation, Comedy, Family",
-        director: "Samuel L. Jackson, Holly Hunter",
+        director: "Brad Bird, Jan Pinkava",
         actors: "Brad Garrett, Lou Romano, Patton Oswalt",
         description: "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
         image: "assets/images/rec/Ratatouille.jpg"
