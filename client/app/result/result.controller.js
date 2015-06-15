@@ -27,7 +27,7 @@ angular.module('recuserstudyApp')
           $scope.totalUsers = [res.users["15-25"], res.users["26-35"], res.users["36-45"], res.users["46-55"], res.users["56-65"], res.users["66-75"], res.users["76-85"]];
         })
         .then(function(){
-          $http.get('api/movies/getUsers')
+          return $http.get('api/movies/getUsers')
         })
         .then(function(res){
           $scope.users = res.data;
