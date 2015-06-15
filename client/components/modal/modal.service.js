@@ -61,7 +61,7 @@ angular.module('recuserstudyApp')
                   text: continueText,
                   click: function(e) {
                     deleteModal.dismiss(e);
-                    del.apply(event, args);
+                    del.apply(e, args);
                   }
                 }]
               }
@@ -101,7 +101,7 @@ angular.module('recuserstudyApp')
                     Movies.gender = gender;
                     Movies.bgu = bgu;
                     deleteModal.dismiss(e);
-                    del.apply(event, args);
+                    del.apply(e, args);
                   }
                 }]
               }
@@ -135,7 +135,7 @@ angular.module('recuserstudyApp')
                   text: continueText,
                   click: function(e) {
                     deleteModal.dismiss(e);
-                    del.apply(event, args);
+                    del.apply(e, args);
                   }
                 },
                   {
