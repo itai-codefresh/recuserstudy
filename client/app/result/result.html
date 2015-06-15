@@ -56,6 +56,25 @@
       </div>
     </div>
 
+    <div class="divider"></div>
+
+    <div class="row">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>BGU user</th>
+          <th>Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="user in users">
+          <td>{{user.bgu}}</td>
+          <td>{{user.date}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
   </div>
 </div>
 
