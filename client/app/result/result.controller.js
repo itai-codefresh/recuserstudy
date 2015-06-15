@@ -12,7 +12,7 @@ angular.module('recuserstudyApp')
 
     $http.get('/api/movies/getStats')
       .then(function (res) {
-        $scope.stats = res;
+        $scope.stats = res.data;
         $scope.totalRecommendations = [res.users.chosen, res.users.amount - res.users.chosen];
         $scope.withImages = [res.withImages.chosen, res.withImages.amount - res.withImages.chosen];
         $scope.withoutImages = [res.withoutImages.chosen, res.withoutImages.amount - res.withoutImages.chosen];
@@ -23,8 +23,8 @@ angular.module('recuserstudyApp')
       .then(function(){
         $http.get('api/movies/getUsers')
       })
-      .then(function(users){
-        $scope.users = users;
+      .then(function(res){
+        $scope.users = res.data;
         $scope.loading = false;
       })
       .catch(function(err){
