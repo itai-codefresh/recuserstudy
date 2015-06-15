@@ -1694,7 +1694,7 @@ angular.module('recuserstudyApp')
         country: "USA",
         length: 92,
         category: "Animation, Action, Adventure",
-        director: "Angelina Jolie, Jackie Chan",
+        director: "Mark Osborne, John Stevenson",
         actors: "Jack Black, Ian McShane, Angelina Jolie",
         description: "In the Valley of Peace, Po the Panda finds himself chosen as the Dragon Warrior despite the fact that he is obese and a complete novice at martial arts.",
         image: "assets/images/rec/Kung Fu Panda.jpg"
@@ -2128,7 +2128,7 @@ angular.module('recuserstudyApp')
         category: "Biography, Comedy, Drama",
         director: "John Lee Hancock",
         actors: "Emma Thompson, Tom Hanks, Annie Rose Buckley",
-        description: "Author ",
+        description: "Author P.L. Travers reflects on her childhood after reluctantly meeting with Walt Disney, who seeks to adapt her Mary Poppins books for the big screen.",
         image: "assets/images/rec/Saving Mr. Banks.jpg"
       },
       "127": {
@@ -2330,7 +2330,7 @@ angular.module('recuserstudyApp')
         country: "USA, UK",
         length: 127,
         category: "Action, Adventure, Sci-Fi",
-        director: "Julianne Moore, Jeff Bridges",
+        director: " Andy Wachowski, Lana Wachowski",
         actors: "Channing Tatum, Mila Kunis, Eddie Redmayne",
         description: "A young woman discovers her destiny as an heiress of intergalactic nobility and must fight to protect the inhabitants of Earth from an ancient and destructive industry.",
         image: "assets/images/rec/Jupiter Ascending.jpg"
@@ -2366,7 +2366,7 @@ angular.module('recuserstudyApp')
         country: "USA, Argentina",
         length: 105,
         category: "Comedy, Crime, Drama",
-        director: "Dev Patel, Hugh Jackman",
+        director: "Glenn Ficarra, John Requa",
         actors: "Will Smith, Margot Robbie, Rodrigo Santoro",
         description: "In the midst of veteran con man Nicky's latest scheme, a woman from his past - now an accomplished femme fatale - shows up and throws his plans for a loop.",
         image: "assets/images/rec/Focus.jpg"
