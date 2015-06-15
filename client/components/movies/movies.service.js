@@ -2741,7 +2741,7 @@ angular.module('recuserstudyApp')
 
     this.gender = null;
 
-    this.user = null;
+    this.bgu = null;
 
     this.alreadyDecided = false;
 

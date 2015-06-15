@@ -1,0 +1,214 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/itaigendler/.nvm/versions/node/v0.12.2/bin/node',
+1 verbose cli   '/Users/itaigendler/.nvm/versions/node/v0.12.2/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose install where, deps [ '/Users/itaigendler/workspace/userstudy',
+4 verbose install   [ 'express',
+4 verbose install     'morgan',
+4 verbose install     'body-parser',
+4 verbose install     'method-override',
+4 verbose install     'serve-favicon',
+4 verbose install     'cookie-parser',
+4 verbose install     'express-session',
+4 verbose install     'errorhandler',
+4 verbose install     'compression',
+4 verbose install     'lodash',
+4 verbose install     'ejs',
+4 verbose install     'mongoose',
+4 verbose install     'composable-middleware',
+4 verbose install     'connect-mongo',
+4 verbose install     'grunt',
+4 verbose install     'grunt-autoprefixer',
+4 verbose install     'grunt-wiredep',
+4 verbose install     'grunt-concurrent',
+4 verbose install     'grunt-contrib-clean',
+4 verbose install     'grunt-contrib-concat',
+4 verbose install     'grunt-contrib-copy',
+4 verbose install     'grunt-contrib-cssmin',
+4 verbose install     'grunt-contrib-htmlmin',
+4 verbose install     'grunt-contrib-imagemin',
+4 verbose install     'grunt-contrib-jshint',
+4 verbose install     'grunt-contrib-uglify',
+4 verbose install     'grunt-contrib-watch',
+4 verbose install     'grunt-google-cdn',
+4 verbose install     'grunt-newer',
+4 verbose install     'grunt-ng-annotate',
+4 verbose install     'grunt-rev',
+4 verbose install     'grunt-svgmin',
+4 verbose install     'grunt-usemin',
+4 verbose install     'grunt-env',
+4 verbose install     'grunt-node-inspector',
+4 verbose install     'grunt-nodemon',
+4 verbose install     'grunt-angular-templates',
+4 verbose install     'grunt-dom-munger',
+4 verbose install     'grunt-protractor-runner',
+4 verbose install     'grunt-asset-injector',
+4 verbose install     'grunt-karma',
+4 verbose install     'grunt-build-control',
+4 verbose install     'grunt-mocha-test',
+4 verbose install     'grunt-contrib-sass',
+4 verbose install     'jit-grunt',
+4 verbose install     'time-grunt',
+4 verbose install     'grunt-express-server',
+4 verbose install     'grunt-open',
+4 verbose install     'open',
+4 verbose install     'jshint-stylish',
+4 verbose install     'connect-livereload',
+4 verbose install     'karma-ng-scenario',
+4 verbose install     'karma-firefox-launcher',
+4 verbose install     'karma-script-launcher',
+4 verbose install     'karma-html2js-preprocessor',
+4 verbose install     'karma-ng-jade2js-preprocessor',
+4 verbose install     'karma-jasmine',
+4 verbose install     'karma-chrome-launcher',
+4 verbose install     'requirejs',
+4 verbose install     'karma-requirejs',
+4 verbose install     'karma-coffee-preprocessor',
+4 verbose install     'karma-jade-preprocessor',
+4 verbose install     'karma-phantomjs-launcher',
+4 verbose install     'karma',
+4 verbose install     'karma-ng-html2js-preprocessor',
+4 verbose install     'supertest',
+4 verbose install     'should' ] ]
+5 verbose install where, peers [ '/Users/itaigendler/workspace/userstudy', [] ]
+6 info preinstall recuserstudy@0.0.0
+7 warn package.json karma-coffee-preprocessor@0.2.1 No README data
+8 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+9 warn package.json should@3.3.2 No README data
+10 verbose already installed skipping mongoose@~3.8.8 /Users/itaigendler/workspace/userstudy
+11 verbose already installed skipping composable-middleware@^0.3.0 /Users/itaigendler/workspace/userstudy
+12 verbose already installed skipping connect-mongo@^0.4.1 /Users/itaigendler/workspace/userstudy
+13 verbose already installed skipping grunt@~0.4.4 /Users/itaigendler/workspace/userstudy
+14 verbose already installed skipping grunt-autoprefixer@~0.7.2 /Users/itaigendler/workspace/userstudy
+15 verbose already installed skipping grunt-wiredep@~1.8.0 /Users/itaigendler/workspace/userstudy
+16 verbose already installed skipping grunt-concurrent@~0.5.0 /Users/itaigendler/workspace/userstudy
+17 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/itaigendler/workspace/userstudy
+18 verbose already installed skipping grunt-contrib-concat@~0.4.0 /Users/itaigendler/workspace/userstudy
+19 verbose already installed skipping grunt-contrib-copy@~0.5.0 /Users/itaigendler/workspace/userstudy
+20 verbose already installed skipping grunt-contrib-cssmin@~0.9.0 /Users/itaigendler/workspace/userstudy
+21 verbose already installed skipping grunt-contrib-htmlmin@~0.2.0 /Users/itaigendler/workspace/userstudy
+22 verbose already installed skipping grunt-contrib-imagemin@~0.7.1 /Users/itaigendler/workspace/userstudy
+23 verbose already installed skipping grunt-contrib-jshint@~0.10.0 /Users/itaigendler/workspace/userstudy
+24 verbose already installed skipping grunt-contrib-uglify@~0.4.0 /Users/itaigendler/workspace/userstudy
+25 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/itaigendler/workspace/userstudy
+26 verbose already installed skipping grunt-google-cdn@~0.4.0 /Users/itaigendler/workspace/userstudy
+27 verbose already installed skipping grunt-newer@~0.7.0 /Users/itaigendler/workspace/userstudy
+28 verbose already installed skipping grunt-ng-annotate@^0.2.3 /Users/itaigendler/workspace/userstudy
+29 verbose already installed skipping grunt-rev@~0.1.0 /Users/itaigendler/workspace/userstudy
+30 verbose already installed skipping grunt-svgmin@~0.4.0 /Users/itaigendler/workspace/userstudy
+31 verbose already installed skipping grunt-usemin@~2.1.1 /Users/itaigendler/workspace/userstudy
+32 verbose already installed skipping grunt-env@~0.4.1 /Users/itaigendler/workspace/userstudy
+33 verbose already installed skipping grunt-node-inspector@~0.1.5 /Users/itaigendler/workspace/userstudy
+34 verbose already installed skipping grunt-nodemon@~0.2.0 /Users/itaigendler/workspace/userstudy
+35 verbose already installed skipping grunt-angular-templates@^0.5.4 /Users/itaigendler/workspace/userstudy
+36 verbose already installed skipping grunt-dom-munger@^3.4.0 /Users/itaigendler/workspace/userstudy
+37 verbose already installed skipping grunt-protractor-runner@^1.1.0 /Users/itaigendler/workspace/userstudy
+38 verbose already installed skipping grunt-asset-injector@^0.1.0 /Users/itaigendler/workspace/userstudy
+39 verbose already installed skipping grunt-karma@~0.8.2 /Users/itaigendler/workspace/userstudy
+40 silly cache add args [ 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control',
+40 silly cache add   null ]
+41 verbose cache add spec grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control
+42 verbose already installed skipping grunt-mocha-test@~0.10.2 /Users/itaigendler/workspace/userstudy
+43 verbose already installed skipping grunt-contrib-sass@^0.7.3 /Users/itaigendler/workspace/userstudy
+44 verbose already installed skipping jit-grunt@^0.5.0 /Users/itaigendler/workspace/userstudy
+45 verbose already installed skipping time-grunt@~0.3.1 /Users/itaigendler/workspace/userstudy
+46 verbose already installed skipping grunt-express-server@~0.4.17 /Users/itaigendler/workspace/userstudy
+47 verbose already installed skipping grunt-open@~0.2.3 /Users/itaigendler/workspace/userstudy
+48 verbose already installed skipping open@~0.0.4 /Users/itaigendler/workspace/userstudy
+49 verbose already installed skipping jshint-stylish@~0.1.5 /Users/itaigendler/workspace/userstudy
+50 verbose already installed skipping connect-livereload@~0.4.0 /Users/itaigendler/workspace/userstudy
+51 verbose already installed skipping karma-ng-scenario@~0.1.0 /Users/itaigendler/workspace/userstudy
+52 silly cache add parsed spec { raw: 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control',
+52 silly cache add   scope: null,
+52 silly cache add   name: 'grunt-build-control',
+52 silly cache add   rawSpec: 'git+https://github.com/DaftMonk/grunt-build-control',
+52 silly cache add   spec: 'git+ssh://git@github.com/DaftMonk/grunt-build-control.git',
+52 silly cache add   type: 'hosted',
+52 silly cache add   hosted:
+52 silly cache add    { type: 'github',
+52 silly cache add      ssh: 'git@github.com:DaftMonk/grunt-build-control.git',
+52 silly cache add      sshUrl: 'git+ssh://git@github.com/DaftMonk/grunt-build-control.git',
+52 silly cache add      httpsUrl: 'https://github.com/DaftMonk/grunt-build-control.git',
+52 silly cache add      directUrl: 'https://raw.githubusercontent.com/DaftMonk/grunt-build-control/master/package.json' } }
+53 info maybeGithub Attempting git+https://github.com/DaftMonk/grunt-build-control from git://github.com/DaftMonk/grunt-build-control.git
+54 verbose addRemoteGit git-github-com-DaftMonk-grunt-build-control-git-2e0cd8b8 not in flight; caching
+55 verbose already installed skipping karma-firefox-launcher@~0.1.3 /Users/itaigendler/workspace/userstudy
+56 verbose already installed skipping karma-script-launcher@~0.1.0 /Users/itaigendler/workspace/userstudy
+57 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 /Users/itaigendler/workspace/userstudy
+58 verbose already installed skipping karma-ng-jade2js-preprocessor@^0.1.2 /Users/itaigendler/workspace/userstudy
+59 verbose already installed skipping karma-jasmine@~0.1.5 /Users/itaigendler/workspace/userstudy
+60 info git [ 'config', '--get', 'remote.origin.url' ]
+61 verbose already installed skipping karma-chrome-launcher@~0.1.3 /Users/itaigendler/workspace/userstudy
+62 verbose already installed skipping requirejs@~2.1.11 /Users/itaigendler/workspace/userstudy
+63 verbose already installed skipping karma-requirejs@~0.2.1 /Users/itaigendler/workspace/userstudy
+64 verbose already installed skipping karma-coffee-preprocessor@~0.2.1 /Users/itaigendler/workspace/userstudy
+65 verbose already installed skipping karma-jade-preprocessor@0.0.11 /Users/itaigendler/workspace/userstudy
+66 verbose already installed skipping karma-phantomjs-launcher@~0.1.4 /Users/itaigendler/workspace/userstudy
+67 verbose already installed skipping karma@~0.12.9 /Users/itaigendler/workspace/userstudy
+68 verbose already installed skipping karma-ng-html2js-preprocessor@~0.1.0 /Users/itaigendler/workspace/userstudy
+69 verbose already installed skipping supertest@~0.11.0 /Users/itaigendler/workspace/userstudy
+70 verbose already installed skipping should@~3.3.1 /Users/itaigendler/workspace/userstudy
+71 verbose addRemoteGit remote.origin.url: git://github.com/DaftMonk/grunt-build-control.git
+72 verbose addRemoteGit updating existing cached remote /Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-2e0cd8b8
+73 verbose already installed skipping express@~4.0.0 /Users/itaigendler/workspace/userstudy
+74 verbose already installed skipping morgan@~1.0.0 /Users/itaigendler/workspace/userstudy
+75 info git [ 'fetch', '-a', 'origin' ]
+76 verbose already installed skipping body-parser@~1.5.0 /Users/itaigendler/workspace/userstudy
+77 verbose already installed skipping method-override@~1.0.0 /Users/itaigendler/workspace/userstudy
+78 verbose already installed skipping serve-favicon@~2.0.1 /Users/itaigendler/workspace/userstudy
+79 verbose already installed skipping cookie-parser@~1.0.1 /Users/itaigendler/workspace/userstudy
+80 verbose already installed skipping express-session@~1.0.2 /Users/itaigendler/workspace/userstudy
+81 verbose already installed skipping errorhandler@~1.0.0 /Users/itaigendler/workspace/userstudy
+82 verbose already installed skipping compression@~1.0.1 /Users/itaigendler/workspace/userstudy
+83 verbose already installed skipping lodash@~2.4.1 /Users/itaigendler/workspace/userstudy
+84 verbose already installed skipping ejs@~0.8.4 /Users/itaigendler/workspace/userstudy
+85 error git fetch -a origin
+86 error git fetch -a origin (git://github.com/DaftMonk/grunt-build-control.git) fatal: unable to connect to github.com:
+86 error git fetch -a origin (git://github.com/DaftMonk/grunt-build-control.git) github.com[0: 192.30.252.128]: errno=Connection refused
+87 info maybeGithub Couldn't clone git://github.com/DaftMonk/grunt-build-control.git
+88 info maybeGithub Now attempting git+https://github.com/DaftMonk/grunt-build-control from git@github.com:DaftMonk/grunt-build-control.git
+89 verbose addRemoteGit git-github-com-DaftMonk-grunt-build-control-git-6ab116d3 not in flight; caching
+90 info git [ 'clone',
+90 info git   '--template=/Users/itaigendler/.npm/_git-remotes/_templates',
+90 info git   '--mirror',
+90 info git   'git@github.com:DaftMonk/grunt-build-control.git',
+90 info git   '/Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3' ]
+91 error git clone --template=/Users/itaigendler/.npm/_git-remotes/_templates --mirror git@github.com:DaftMonk/grunt-build-control.git /Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3
+92 error git clone --template=/Users/itaigendler/.npm/_git-remotes/_templates --mirror git@github.com:DaftMonk/grunt-build-control.git /Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3: Cloning into bare repository '/Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3'...
+92 error git clone --template=/Users/itaigendler/.npm/_git-remotes/_templates --mirror git@github.com:DaftMonk/grunt-build-control.git /Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3: ssh: connect to host github.com port 22: Connection refused
+92 error git clone --template=/Users/itaigendler/.npm/_git-remotes/_templates --mirror git@github.com:DaftMonk/grunt-build-control.git /Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3: fatal: Could not read from remote repository.
+92 error git clone --template=/Users/itaigendler/.npm/_git-remotes/_templates --mirror git@github.com:DaftMonk/grunt-build-control.git /Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3:
+92 error git clone --template=/Users/itaigendler/.npm/_git-remotes/_templates --mirror git@github.com:DaftMonk/grunt-build-control.git /Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3: Please make sure you have the correct access rights
+92 error git clone --template=/Users/itaigendler/.npm/_git-remotes/_templates --mirror git@github.com:DaftMonk/grunt-build-control.git /Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3: and the repository exists.
+93 verbose stack Error: Command failed: git clone --template=/Users/itaigendler/.npm/_git-remotes/_templates --mirror git@github.com:DaftMonk/grunt-build-control.git /Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3
+93 verbose stack Cloning into bare repository '/Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3'...
+93 verbose stack ssh: connect to host github.com port 22: Connection refused
+93 verbose stack fatal: Could not read from remote repository.
+93 verbose stack
+93 verbose stack Please make sure you have the correct access rights
+93 verbose stack and the repository exists.
+93 verbose stack
+93 verbose stack     at ChildProcess.exithandler (child_process.js:751:12)
+93 verbose stack     at ChildProcess.emit (events.js:110:17)
+93 verbose stack     at maybeClose (child_process.js:1015:16)
+93 verbose stack     at Socket.<anonymous> (child_process.js:1183:11)
+93 verbose stack     at Socket.emit (events.js:107:17)
+93 verbose stack     at Pipe.close (net.js:485:12)
+94 verbose cwd /Users/itaigendler/workspace/userstudy
+95 error Darwin 14.3.0
+96 error argv "/Users/itaigendler/.nvm/versions/node/v0.12.2/bin/node" "/Users/itaigendler/.nvm/versions/node/v0.12.2/bin/npm" "install"
+97 error node v0.12.2
+98 error npm  v2.7.4
+99 error code 128
+100 error Command failed: git clone --template=/Users/itaigendler/.npm/_git-remotes/_templates --mirror git@github.com:DaftMonk/grunt-build-control.git /Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3
+100 error Cloning into bare repository '/Users/itaigendler/.npm/_git-remotes/git-github-com-DaftMonk-grunt-build-control-git-6ab116d3'...
+100 error ssh: connect to host github.com port 22: Connection refused
+100 error fatal: Could not read from remote repository.
+100 error
+100 error Please make sure you have the correct access rights
+100 error and the repository exists.
+101 error If you need help, you may report this error at:
+101 error     <https://github.com/npm/npm/issues>
+102 verbose exit [ 1, true ]

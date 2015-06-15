@@ -8,7 +8,7 @@ var ThingSchema = new Schema({
   res: {},
   age: "String",
   gender: "String",
-  user: "String"
+  bgu: "String"
 });
 
 module.exports = mongoose.model('Movie', ThingSchema);

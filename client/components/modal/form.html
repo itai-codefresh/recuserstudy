@@ -25,8 +25,9 @@
         <option value="66-75">41-45</option>
         <option value="76-85">46-50</option>
       </select>
+      <br>
       <span><b>BGU user:</b></span>
-      <input type="text" class="form-control" id="exampleInputEmail1" ng-model="modal.user">
+      <input type="text" class="form-control" id="exampleInputEmail1" ng-model="modal.bgu" placeholder="BGU user">
     </div>
 
     <br>
@@ -43,7 +44,7 @@
   </div>
 </div>
 <div class="modal-footer">
-  <span class="pull-left" ng-show="modal.age === 'age' || modal.gender === 'gender' || modal.user === 'bgu user'"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> please fill the missing details</span>
+  <span class="pull-left" ng-show="modal.age === 'age' || modal.gender === 'gender' || !modal.bgu"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> please fill the missing details</span>
   <button ng-disabled="modal.age === 'age' || modal.gender === 'gender'" ng-repeat="button in modal.buttons" ng-class="button.classes" ng-click="button.click($event, modal.age, modal.gender, modal.user)"
           ng-bind="button.text" class="btn"></button>
 </div>

@@ -90,7 +90,7 @@ angular.module('recuserstudyApp')
 
       $scope.finish = function () {
         $scope.loading = true;
-        $http.post('/api/movies/saveUserExperiment', {withImages: $scope.withImages, res: userMovies, age: Movies.age, gender: Movies.gender, user: Movies.user})
+        $http.post('/api/movies/saveUserExperiment', {withImages: $scope.withImages, res: userMovies, age: Movies.age, gender: Movies.gender, bgu: Movies.bgu})
           .success(function () {
             Modal.confirm.info(function () {
               window.location.assign("http://www.imdb.com");
