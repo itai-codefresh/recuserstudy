@@ -63,7 +63,7 @@ exports.getUsers = function (request, response){
 
 
 exports.deleteAll = function(request, response){
-  Movies.remove({}, function(err){
+  Movie.remove({}, function(err){
     if (err){
       return response.send(400, "An error occurred while trying to delete data from system. We are sorry.");
     }
