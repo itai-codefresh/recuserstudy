@@ -45,6 +45,6 @@
 </div>
 <div class="modal-footer">
   <span class="pull-left" ng-show="modal.age === 'age' || modal.gender === 'gender' || !modal.bgu"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> please fill the missing details</span>
-  <button ng-disabled="modal.age === 'age' || modal.gender === 'gender'" ng-repeat="button in modal.buttons" ng-class="button.classes" ng-click="button.click($event, modal.age, modal.gender, modal.user)"
+  <button ng-disabled="modal.age === 'age' || modal.gender === 'gender' || !modal.bgu" ng-repeat="button in modal.buttons" ng-class="button.classes" ng-click="button.click($event, modal.age, modal.gender, modal.user)"
           ng-bind="button.text" class="btn"></button>
 </div>
