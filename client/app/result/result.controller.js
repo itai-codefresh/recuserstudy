@@ -13,7 +13,7 @@ angular.module('recuserstudyApp')
     $http.get('/api/movies/getStats')
       .then(function (res) {
         res = res.data;
-        $scope.stats = res.data;
+        $scope.stats = res;
         $scope.totalRecommendations = [res.users.chosen, res.users.amount - res.users.chosen];
         $scope.withImages = [res.withImages.chosen, res.withImages.amount - res.withImages.chosen];
         $scope.withoutImages = [res.withoutImages.chosen, res.withoutImages.amount - res.withoutImages.chosen];
