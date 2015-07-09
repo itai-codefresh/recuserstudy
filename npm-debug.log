@@ -76,6 +76,7 @@
 6 info preinstall recuserstudy@0.0.0
 7 silly cache add args [ 'body-parser@~1.5.0', null ]
 8 verbose cache add spec body-parser@~1.5.0
+asd
 9 silly cache add parsed spec { raw: 'body-parser@~1.5.0',
 9 silly cache add   scope: null,
 9 silly cache add   name: 'body-parser',
