@@ -1,2 +1,2 @@
 # userrecstudy
-Recommended System User Study Mini Projec
+Recommended System User Study Mini Proje
