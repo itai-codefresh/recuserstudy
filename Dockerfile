@@ -14,8 +14,6 @@ COPY . /src
 WORKDIR /src
 
 
-RUN npm install
-
 #node inspector port
 EXPOSE 9000
 
